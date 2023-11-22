@@ -33,7 +33,10 @@
   <entry>
     <title>同步神器Syncthing教程：轻松实现跨设备文件同步</title>
     <url>/20231122233859/</url>
-    <content><![CDATA[<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
 ]]></content>
       <categories>
         <category>Tools</category>
@@ -89,6 +92,37 @@
       </tags>
   </entry>
   <entry>
+    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何自动监控网页内容变化-开源Changedetection搭建</title>
     <url>/20231116144016/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -140,37 +174,6 @@
         <tag>网页内容监控</tag>
         <tag>ChangeDetection教程</tag>
         <tag>ChangeDetection部署</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
       </tags>
   </entry>
 </search>
