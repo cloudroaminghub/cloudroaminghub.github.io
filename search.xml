@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>下载小学到高中的电子版教科书</title>
-    <url>/20231123184227/</url>
-    <content><![CDATA[<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>教科书</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/20231116141339/</url>
     <content><![CDATA[<p>Hello World!</p>
@@ -34,6 +22,18 @@
       </tags>
   </entry>
   <entry>
+    <title>下载小学到高中的电子版教科书</title>
+    <url>/20231123184227/</url>
+    <content><![CDATA[<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>教科书</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>同步神器Syncthing教程：轻松实现跨设备文件同步</title>
     <url>/20231122233859/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -48,27 +48,6 @@
         <tag>文件同步</tag>
         <tag>Syncthing</tag>
         <tag>同步神器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>几个日常小帮手，总有一个你也用得到</title>
-    <url>/20231121231527/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
-<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
-<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
-<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>Snapdrop</tag>
-        <tag>网页翻译</tag>
-        <tag>远程桌面</tag>
-        <tag>会员合租</tag>
       </tags>
   </entry>
   <entry>
@@ -116,34 +95,24 @@
       </tags>
   </entry>
   <entry>
-    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <title>几个日常小帮手，总有一个你也用得到</title>
+    <url>/20231121231527/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
+<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
+<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
+<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
+<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
+        <tag>Snapdrop</tag>
+        <tag>网页翻译</tag>
+        <tag>远程桌面</tag>
+        <tag>会员合租</tag>
       </tags>
   </entry>
   <entry>
@@ -201,6 +170,37 @@
       </tags>
   </entry>
   <entry>
+    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
     <url>/20231123184624/</url>
     <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
@@ -213,6 +213,15 @@
         <tag>微信转发</tag>
         <tag>通知转发</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>超全IPTV源</title>
+    <url>/20231123184915/</url>
+    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
   </entry>
   <entry>
     <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
@@ -239,14 +248,14 @@
 <li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>超全IPTV源</title>
-    <url>/20231123184915/</url>
-    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
-]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
+      <tags>
+        <tag>VPS</tag>
+        <tag>v2ray</tag>
+        <tag>节点</tag>
+        <tag>一键搭建</tag>
+      </tags>
   </entry>
 </search>
