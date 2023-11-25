@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/20231116141339/</url>
-    <content><![CDATA[<p>Hello World!</p>
-]]></content>
-      <tags>
-        <tag>Hello World</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
     <url>/20231123185141/</url>
     <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
@@ -19,6 +10,15 @@
       </categories>
       <tags>
         <tag>PDF编辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/20231116141339/</url>
+    <content><![CDATA[<p>Hello World!</p>
+]]></content>
+      <tags>
+        <tag>Hello World</tag>
       </tags>
   </entry>
   <entry>
@@ -38,6 +38,7 @@
     <url>/20231122233859/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<span id="more"></span>
 
 <p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
 ]]></content>
@@ -48,6 +49,28 @@
         <tag>文件同步</tag>
         <tag>Syncthing</tag>
         <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>几个日常小帮手，总有一个你也用得到</title>
+    <url>/20231121231527/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
+<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
+<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
+<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>Snapdrop</tag>
+        <tag>网页翻译</tag>
+        <tag>远程桌面</tag>
+        <tag>会员合租</tag>
       </tags>
   </entry>
   <entry>
@@ -95,24 +118,35 @@
       </tags>
   </entry>
   <entry>
-    <title>几个日常小帮手，总有一个你也用得到</title>
-    <url>/20231121231527/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<span id="more"></span>
 
-<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
-<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
-<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
-<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>Snapdrop</tag>
-        <tag>网页翻译</tag>
-        <tag>远程桌面</tag>
-        <tag>会员合租</tag>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -120,6 +154,7 @@
     <url>/20231116144016/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<span id="more"></span>
 
 <h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
 <li>VPS</li>
@@ -127,11 +162,8 @@
 <li>Python(Changedetection需要python3.7以上版本)</li>
 </ol>
 <h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="卸载旧版python3-x"><a href="#卸载旧版python3-x" class="headerlink" title="卸载旧版python3.x"></a>卸载旧版python3.x</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps     <span class="comment">##卸载pyhton3</span></span><br><span class="line">$ whereis python3 |xargs <span class="built_in">rm</span> -frv          <span class="comment">##删除所有残余文件</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<span id="more"></span>
-
-<ul>
+<li><h4 id="卸载旧版python3-x"><a href="#卸载旧版python3-x" class="headerlink" title="卸载旧版python3.x"></a>卸载旧版python3.x</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps     <span class="comment">##卸载pyhton3</span></span><br><span class="line">$ whereis python3 |xargs <span class="built_in">rm</span> -frv          <span class="comment">##删除所有残余文件</span></span><br></pre></td></tr></table></figure>
+</li>
 <li><h4 id="检查系统中现存的python版本"><a href="#检查系统中现存的python版本" class="headerlink" title="检查系统中现存的python版本"></a>检查系统中现存的python版本</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ whereis python     <span class="comment">##通过此命令查看现有python的位置</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><h4 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz  <span class="comment">##下载安装包</span></span><br><span class="line">$ tar -xzvf Python-3.7.5.tgz   <span class="comment">##解压</span></span><br><span class="line">$ <span class="built_in">cd</span> Python-3.7.5   <span class="comment">##进入文件夹</span></span><br><span class="line">$ ./configure -prefix=/usr/local/python3.7.5 <span class="comment">##注意：prefix参数用于指定将Python安装在新目录，防止覆盖宝塔系统默认安装的python2.x</span></span><br><span class="line">$ make &amp;&amp; make install <span class="comment">##编译</span></span><br></pre></td></tr></table></figure>
@@ -170,37 +202,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
     <url>/20231123184624/</url>
     <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
@@ -215,18 +216,13 @@
       </tags>
   </entry>
   <entry>
-    <title>超全IPTV源</title>
-    <url>/20231123184915/</url>
-    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-  </entry>
-  <entry>
     <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
     <url>/20231125211809/</url>
-    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
 <li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li>
 <li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li>
 </ul>
@@ -257,5 +253,14 @@
         <tag>节点</tag>
         <tag>一键搭建</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>超全IPTV源</title>
+    <url>/20231123184915/</url>
+    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
   </entry>
 </search>
