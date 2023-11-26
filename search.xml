@@ -22,35 +22,15 @@
       </tags>
   </entry>
   <entry>
-    <title>一键爬取网站，3步建立GPT专属问答机器人</title>
-    <url>/20231126101118/</url>
-    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
-<li><a href="https://nodejs.org/en/">Node.js</a> &gt;&#x3D; 16</li>
-</ul>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><p>下载脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/builderio/gpt-crawler</span><br><span class="line">$ <span class="built_in">cd</span> gpt-crawler</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装依赖</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>调整配置</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> const defaultConfig: Config = &#123;</span><br><span class="line">  url: <span class="string">&quot;https://www.builder.io/c/docs/developers&quot;</span>,  <span class="comment"># URL to start the crawl</span></span><br><span class="line">  match: <span class="string">&quot;https://www.builder.io/c/docs/**&quot;</span>,        <span class="comment"># Pattern to match against for links on a page to subsequently crawl</span></span><br><span class="line">  selector: `.docs-builder-container`,              <span class="comment"># Selector to grab the inner text from</span></span><br><span class="line">  maxPagesToCrawl: 50,                              <span class="comment"># Don&#x27;t crawl more than this many pages</span></span><br><span class="line">  outputFileName: <span class="string">&quot;output.json&quot;</span>,                    <span class="comment"># File name for the finished data</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>执行任务</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm start</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li><a href="https://github.com/BuilderIO/gpt-crawler">gpt-crawler github地址</a></li>
-</ul>
+    <title>下载小学到高中的电子版教科书</title>
+    <url>/20231123184227/</url>
+    <content><![CDATA[<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>爬虫</tag>
-        <tag>GPTs</tag>
-        <tag>问答机器人</tag>
+        <tag>教科书</tag>
       </tags>
   </entry>
   <entry>
@@ -76,15 +56,40 @@
       </tags>
   </entry>
   <entry>
-    <title>下载小学到高中的电子版教科书</title>
-    <url>/20231123184227/</url>
-    <content><![CDATA[<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
+    <title>一键爬取网站，3步建立GPT专属问答机器人</title>
+    <url>/20231126101118/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/uCynmiNX5Ww?si=KeAtOWHHsY4WNJ-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+<li><a href="https://nodejs.org/en/">Node.js</a> &gt;&#x3D; 16</li>
+</ul>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><p>下载脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/builderio/gpt-crawler</span><br><span class="line">$ <span class="built_in">cd</span> gpt-crawler</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装依赖</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>调整配置</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> const defaultConfig: Config = &#123;</span><br><span class="line">  url: <span class="string">&quot;https://www.builder.io/c/docs/developers&quot;</span>,  <span class="comment"># URL to start the crawl</span></span><br><span class="line">  match: <span class="string">&quot;https://www.builder.io/c/docs/**&quot;</span>,        <span class="comment"># Pattern to match against for links on a page to subsequently crawl</span></span><br><span class="line">  selector: `.docs-builder-container`,              <span class="comment"># Selector to grab the inner text from</span></span><br><span class="line">  maxPagesToCrawl: 50,                              <span class="comment"># Don&#x27;t crawl more than this many pages</span></span><br><span class="line">  outputFileName: <span class="string">&quot;output.json&quot;</span>,                    <span class="comment"># File name for the finished data</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>执行任务</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm start</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li><a href="https://github.com/BuilderIO/gpt-crawler">gpt-crawler github地址</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>教科书</tag>
+        <tag>AI</tag>
+        <tag>爬虫</tag>
+        <tag>GPTs</tag>
+        <tag>问答机器人</tag>
       </tags>
   </entry>
   <entry>
@@ -103,6 +108,38 @@
         <tag>文件同步</tag>
         <tag>Syncthing</tag>
         <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -147,38 +184,6 @@
         <tag>稳定</tag>
         <tag>Git</tag>
         <tag>nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
@@ -248,15 +253,6 @@
       </tags>
   </entry>
   <entry>
-    <title>超全IPTV源</title>
-    <url>/20231123184915/</url>
-    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-  </entry>
-  <entry>
     <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
     <url>/20231125211809/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -294,5 +290,14 @@
         <tag>节点</tag>
         <tag>一键搭建</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>超全IPTV源</title>
+    <url>/20231123184915/</url>
+    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
   </entry>
 </search>
