@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/20231116141339/</url>
+    <content><![CDATA[<p>Hello World!</p>
+]]></content>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
     <url>/20231123185141/</url>
     <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
@@ -10,15 +19,6 @@
       </categories>
       <tags>
         <tag>PDF编辑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/20231116141339/</url>
-    <content><![CDATA[<p>Hello World!</p>
-]]></content>
-      <tags>
-        <tag>Hello World</tag>
       </tags>
   </entry>
   <entry>
@@ -209,6 +209,59 @@
       </tags>
   </entry>
   <entry>
+    <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
+    <url>/20231125211809/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+<li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li>
+<li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li>
+</ul>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><p>安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>备用安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>本地客户端<ul>
+<li>Windows推荐<a href="https://github.com/2dust/v2rayN">v2rayN</a></li>
+<li>iOS推荐小火箭<a href="https://apps.apple.com/ca/app/shadowrocket/id932747118">Shadowrocket</a></li>
+<li>Android推荐<a href="https://github.com/2dust/v2rayNG">v2rayNG</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>VPS</tag>
+        <tag>v2ray</tag>
+        <tag>节点</tag>
+        <tag>一键搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
+    <url>/20231123184624/</url>
+    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>短信转发</tag>
+        <tag>微信转发</tag>
+        <tag>通知转发</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何自动监控网页内容变化-开源Changedetection搭建</title>
     <url>/20231116144016/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -261,62 +314,13 @@
       </tags>
   </entry>
   <entry>
-    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
-    <url>/20231123184624/</url>
-    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>短信转发</tag>
-        <tag>微信转发</tag>
-        <tag>通知转发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
-    <url>/20231125211809/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <title>私藏谷歌浏览器插件</title>
+    <url>/20231201182406/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <span id="more"></span>
 
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
-<li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li>
-<li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li>
-</ul>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><p>安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
-
-</li>
-<li><p>备用安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>本地客户端<ul>
-<li>Windows推荐<a href="https://github.com/2dust/v2rayN">v2rayN</a></li>
-<li>iOS推荐小火箭<a href="https://apps.apple.com/ca/app/shadowrocket/id932747118">Shadowrocket</a></li>
-<li>Android推荐<a href="https://github.com/2dust/v2rayNG">v2rayNG</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>VPS</tag>
-        <tag>v2ray</tag>
-        <tag>节点</tag>
-        <tag>一键搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>私藏谷歌浏览器插件</title>
-    <url>/20231201182406/</url>
-    <content><![CDATA[<ul>
+<ul>
 <li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul>
 <li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li>
 <li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li>
