@@ -59,6 +59,39 @@
       </tags>
   </entry>
   <entry>
+    <title>免科学上网使用ChatGPT</title>
+    <url>/20231129162302/</url>
+    <content><![CDATA[<p><a href="https://chatboxai.app/">Chatbox官网</a><br><a href="https://github.com/Bin-Huang/chatbox">Chatbox github</a></p>
+]]></content>
+      <categories>
+        <category>免费工具</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ChatGPT</tag>
+        <tag>OpenAI</tag>
+        <tag>Chatbox</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>同步神器Syncthing教程：轻松实现跨设备文件同步</title>
+    <url>/20231122233859/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>文件同步</tag>
+        <tag>Syncthing</tag>
+        <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>下载小学到高中的电子版教科书</title>
     <url>/20231123184227/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/0Zy8NZ56KJg?si=8qVynxw9mgxiopiG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -75,21 +108,6 @@
       <tags>
         <tag>PDF编辑</tag>
         <tag>教科书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免科学上网使用ChatGPT</title>
-    <url>/20231129162302/</url>
-    <content><![CDATA[<p><a href="https://chatboxai.app/">Chatbox官网</a><br><a href="https://github.com/Bin-Huang/chatbox">Chatbox github</a></p>
-]]></content>
-      <categories>
-        <category>免费工具</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ChatGPT</tag>
-        <tag>OpenAI</tag>
-        <tag>Chatbox</tag>
       </tags>
   </entry>
   <entry>
@@ -112,24 +130,6 @@
         <tag>网页翻译</tag>
         <tag>远程桌面</tag>
         <tag>会员合租</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>同步神器Syncthing教程：轻松实现跨设备文件同步</title>
-    <url>/20231122233859/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>文件同步</tag>
-        <tag>Syncthing</tag>
-        <tag>同步神器</tag>
       </tags>
   </entry>
   <entry>
@@ -209,59 +209,6 @@
       </tags>
   </entry>
   <entry>
-    <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
-    <url>/20231125211809/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
-<li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li>
-<li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li>
-</ul>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><p>安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
-
-</li>
-<li><p>备用安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li>本地客户端<ul>
-<li>Windows推荐<a href="https://github.com/2dust/v2rayN">v2rayN</a></li>
-<li>iOS推荐小火箭<a href="https://apps.apple.com/ca/app/shadowrocket/id932747118">Shadowrocket</a></li>
-<li>Android推荐<a href="https://github.com/2dust/v2rayNG">v2rayNG</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>VPS</tag>
-        <tag>v2ray</tag>
-        <tag>节点</tag>
-        <tag>一键搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
-    <url>/20231123184624/</url>
-    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>短信转发</tag>
-        <tag>微信转发</tag>
-        <tag>通知转发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何自动监控网页内容变化-开源Changedetection搭建</title>
     <url>/20231116144016/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -314,6 +261,59 @@
       </tags>
   </entry>
   <entry>
+    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
+    <url>/20231123184624/</url>
+    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>短信转发</tag>
+        <tag>微信转发</tag>
+        <tag>通知转发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
+    <url>/20231125211809/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+<li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li>
+<li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li>
+</ul>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><p>安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>备用安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>本地客户端<ul>
+<li>Windows推荐<a href="https://github.com/2dust/v2rayN">v2rayN</a></li>
+<li>iOS推荐小火箭<a href="https://apps.apple.com/ca/app/shadowrocket/id932747118">Shadowrocket</a></li>
+<li>Android推荐<a href="https://github.com/2dust/v2rayNG">v2rayNG</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>VPS</tag>
+        <tag>v2ray</tag>
+        <tag>节点</tag>
+        <tag>一键搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>私藏谷歌浏览器插件</title>
     <url>/20231201182406/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -351,5 +351,23 @@
       <categories>
         <category>免费资源</category>
       </categories>
+  </entry>
+  <entry>
+    <title>适合国人长期日常使用tiktok的方法</title>
+    <url>/20231203131227/</url>
+    <content><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p>
+<h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul>
+<li>网页版  </li>
+<li>拔卡 + 设置系统区域  </li>
+<li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>tiktok</tag>
+        <tag>科学上网</tag>
+      </tags>
   </entry>
 </search>
