@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/20231116141339/</url>
+    <content><![CDATA[<p>Hello World!</p>
+]]></content>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
     <url>/20231123185141/</url>
     <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
@@ -13,16 +22,26 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/20231116141339/</url>
-    <content><![CDATA[<p>Hello World!</p>
+    <title>不翻墙怎么用ChatGPT，最佳客户端</title>
+    <url>/20231129162302/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/K9ehlPo7me8?si=gq1EUbg0qgLEZyKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p><a href="https://chatboxai.app/">Chatbox官网</a><br><a href="https://github.com/Bin-Huang/chatbox">Chatbox github</a></p>
 ]]></content>
+      <categories>
+        <category>免费工具</category>
+      </categories>
       <tags>
-        <tag>Hello World</tag>
+        <tag>ChatGPT</tag>
+        <tag>OpenAI</tag>
+        <tag>AI</tag>
+        <tag>Chatbox</tag>
       </tags>
   </entry>
   <entry>
-    <title>一键爬取网站，3步建立GPT专属问答机器人</title>
+    <title>gpt爬虫，人人都可以创建GPTs问答机器人</title>
     <url>/20231126101118/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/uCynmiNX5Ww?si=KeAtOWHHsY4WNJ-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -33,16 +52,17 @@
 </ul>
 <h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
 <li><p>下载脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/builderio/gpt-crawler</span><br><span class="line">$ <span class="built_in">cd</span> gpt-crawler</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/builderio/gpt-crawler</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd gpt-crawler</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>安装依赖</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>调整配置</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> const defaultConfig: Config = &#123;</span><br><span class="line">  url: <span class="string">&quot;https://www.builder.io/c/docs/developers&quot;</span>,  <span class="comment"># URL to start the crawl</span></span><br><span class="line">  match: <span class="string">&quot;https://www.builder.io/c/docs/**&quot;</span>,        <span class="comment"># Pattern to match against for links on a page to subsequently crawl</span></span><br><span class="line">  selector: `.docs-builder-container`,              <span class="comment"># Selector to grab the inner text from</span></span><br><span class="line">  maxPagesToCrawl: 50,                              <span class="comment"># Don&#x27;t crawl more than this many pages</span></span><br><span class="line">  outputFileName: <span class="string">&quot;output.json&quot;</span>,                    <span class="comment"># File name for the finished data</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>执行任务</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm start</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
 <li><a href="https://github.com/BuilderIO/gpt-crawler">gpt-crawler github地址</a></li>
@@ -59,107 +79,7 @@
       </tags>
   </entry>
   <entry>
-    <title>下载小学到高中的电子版教科书</title>
-    <url>/20231123184227/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/0Zy8NZ56KJg?si=8qVynxw9mgxiopiG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-
-<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
-<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>PDF编辑</tag>
-        <tag>教科书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免科学上网使用ChatGPT</title>
-    <url>/20231129162302/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/K9ehlPo7me8?si=gq1EUbg0qgLEZyKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<p><a href="https://chatboxai.app/">Chatbox官网</a><br><a href="https://github.com/Bin-Huang/chatbox">Chatbox github</a></p>
-]]></content>
-      <categories>
-        <category>免费工具</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ChatGPT</tag>
-        <tag>OpenAI</tag>
-        <tag>Chatbox</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
-    <url>/20231116152410/</url>
-    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://nodejs.org/en">Node.js</a></li>
-<li><a href="https://git-scm.com/download/win">Git</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="确认Node-js是否安装成功"><a href="#确认Node-js是否安装成功" class="headerlink" title="确认Node.js是否安装成功"></a>确认Node.js是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ node -v 或 npm -v     <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<span id="more"></span>	
-<ul>
-<li><h4 id="npm添加国内镜像源"><a href="#npm添加国内镜像源" class="headerlink" title="npm添加国内镜像源"></a>npm添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-</li>
-<li><h4 id="验证git是否安装成功"><a href="#验证git是否安装成功" class="headerlink" title="验证git是否安装成功"></a>验证git是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git --version         <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i hexo-cli -g</span><br><span class="line">$ hexo -v                <span class="comment">##验证是否安装成功</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init             <span class="comment">##初始化文件夹</span></span><br><span class="line">$ npm install           <span class="comment">##安装必备的组件</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="本地测试博客"><a href="#本地测试博客" class="headerlink" title="本地测试博客"></a>本地测试博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g                <span class="comment">##生成静态网页</span></span><br><span class="line">$ hexo s                <span class="comment">##打开本地服务器</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">&quot;你的名字&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="生成密钥SSH-key"><a href="#生成密钥SSH-key" class="headerlink" title="生成密钥SSH key"></a>生成密钥SSH key</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span>   <span class="comment">##生成密钥SSH key</span></span><br><span class="line">$ <span class="built_in">cat</span> ~/.ssh/id_rsa.pub             <span class="comment">##获取SSH key填入github</span></span><br><span class="line">$ ssh -T git@github.com             <span class="comment">##测试github连接</span></span><br></pre></td></tr></table></figure>
-
-</li>
-<li><h4 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i hexo-deployer-git           <span class="comment">##首次需要安装一个扩展</span></span><br><span class="line">$ hexo new post <span class="string">&quot;文章标题&quot;</span>          </span><br><span class="line">$ hexo g                            <span class="comment">##生成静态网页</span></span><br><span class="line">$ hexo s                            <span class="comment">##本地预览效果</span></span><br><span class="line">$ hexo d                            <span class="comment">##上传到github上</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github pages</tag>
-        <tag>博客</tag>
-        <tag>轻量</tag>
-        <tag>稳定</tag>
-        <tag>Git</tag>
-        <tag>nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>同步神器Syncthing教程：轻松实现跨设备文件同步</title>
-    <url>/20231122233859/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>文件同步</tag>
-        <tag>Syncthing</tag>
-        <tag>同步神器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>几个日常小帮手，总有一个你也用得到</title>
+    <title>互传照片文件，netflix会员合租，网页翻译，远程支持</title>
     <url>/20231121231527/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -181,87 +101,22 @@
       </tags>
   </entry>
   <entry>
-    <title>如何自动监控网页内容变化-docker一键部署ChangeDetection</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <title>中小学课本一键下载，免费PDF编辑工具</title>
+    <url>/20231123184227/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/0Zy8NZ56KJg?si=8qVynxw9mgxiopiG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <span id="more"></span>
 
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
+
+<p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p>
+<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何自动监控网页内容变化-开源Changedetection搭建</title>
-    <url>/20231116144016/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li>VPS</li>
-<li><a href="https://www.bt.cn/new/index.html">宝塔面板</a></li>
-<li>Python(Changedetection需要python3.7以上版本)</li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="卸载旧版python3-x"><a href="#卸载旧版python3-x" class="headerlink" title="卸载旧版python3.x"></a>卸载旧版python3.x</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps     <span class="comment">##卸载pyhton3</span></span><br><span class="line">$ whereis python3 |xargs <span class="built_in">rm</span> -frv          <span class="comment">##删除所有残余文件</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="检查系统中现存的python版本"><a href="#检查系统中现存的python版本" class="headerlink" title="检查系统中现存的python版本"></a>检查系统中现存的python版本</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ whereis python     <span class="comment">##通过此命令查看现有python的位置</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz  <span class="comment">##下载安装包</span></span><br><span class="line">$ tar -xzvf Python-3.7.5.tgz   <span class="comment">##解压</span></span><br><span class="line">$ <span class="built_in">cd</span> Python-3.7.5   <span class="comment">##进入文件夹</span></span><br><span class="line">$ ./configure -prefix=/usr/local/python3.7.5 <span class="comment">##注意：prefix参数用于指定将Python安装在新目录，防止覆盖宝塔系统默认安装的python2.x</span></span><br><span class="line">$ make &amp;&amp; make install <span class="comment">##编译</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="建立软链接"><a href="#建立软链接" class="headerlink" title="建立软链接"></a>建立软链接</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">rm</span> -rf /usr/bin/python3                                       <span class="comment">##删除原有链接</span></span><br><span class="line">$ <span class="built_in">ln</span> -s /usr/local/python3.7.5/bin/python3.7 /usr/bin/python3   <span class="comment">##建立python3新的软连接</span></span><br><span class="line">$ <span class="built_in">rm</span> -rf /usr/bin/pip                                 <span class="comment">##删除原有链接</span></span><br><span class="line">$ <span class="built_in">ln</span> -s /usr/local/python3.7.5/bin/pip3 /usr/bin/pip  <span class="comment">##建立pip3新的软连接</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="检查pip版本"><a href="#检查pip版本" class="headerlink" title="检查pip版本"></a>检查pip版本</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip -V       <span class="comment">##大写V</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="重装pip-如果有报错才需要"><a href="#重装pip-如果有报错才需要" class="headerlink" title="重装pip(如果有报错才需要)"></a>重装pip(如果有报错才需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">rm</span> -rf /usr/bin/pip  <span class="comment">##删除原有链接</span></span><br><span class="line">$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br><span class="line">$ python3 get-pip.py --force-reinstall <span class="comment">##强制重装pip</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="安装ChangeDetection"><a href="#安装ChangeDetection" class="headerlink" title="安装ChangeDetection"></a>安装ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install changedetection.io</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="安装特定版本命令-如有需要"><a href="#安装特定版本命令-如有需要" class="headerlink" title="安装特定版本命令(如有需要)"></a>安装特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip install changedetection.io==0.45.5  <span class="comment">##安装0.45.5版本</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="卸载特定版本命令-如有需要"><a href="#卸载特定版本命令-如有需要" class="headerlink" title="卸载特定版本命令(如有需要)"></a>卸载特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ pip uninstall changedetection.io==0.45.5  <span class="comment">##卸载0.45.5版本</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="运行ChangeDetection"><a href="#运行ChangeDetection" class="headerlink" title="运行ChangeDetection"></a>运行ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">ln</span> -s /usr/local/python3.7.5/bin/changedetection.io /usr/bin/changedetection.io    <span class="comment">##建立changedetection.io软连接</span></span><br><span class="line">$ <span class="built_in">mkdir</span> /www/wwwroot/ChangeDetection     <span class="comment">##建立changedetection工作文件夹</span></span><br><span class="line">$ changedetection.io -d /www/wwwroot/ChangeDetection -p 5000            <span class="comment">##在宝塔面板开放5000端口就可以访问了</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><ol>
-<li><a href="https://changedetection.io/">Changedetection官网</a></li>
-<li><a href="https://github.com/dgtlmoon/changedetection.io">Changedetection Github</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
+        <tag>PDF编辑</tag>
+        <tag>教科书</tag>
       </tags>
   </entry>
   <entry>
@@ -279,7 +134,7 @@
       </tags>
   </entry>
   <entry>
-    <title>新手必看：使用一键脚本在VPS上轻松搭建节点！</title>
+    <title>搭建节点教程(2023)，操作最简单功能最全面</title>
     <url>/20231125211809/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -291,11 +146,11 @@
 </ul>
 <h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
 <li><p>安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure>
 
 </li>
 <li><p>备用安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
 <li>本地客户端<ul>
@@ -318,25 +173,175 @@
       </tags>
   </entry>
   <entry>
-    <title>适合国人长期日常使用tiktok的方法</title>
-    <url>/20231203131227/</url>
-    <content><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p>
-<h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul>
-<li>网页版  </li>
-<li>拔卡 + 设置系统区域  </li>
-<li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)</li>
+    <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
+    <url>/20231116152410/</url>
+    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://nodejs.org/en">Node.js</a></li>
+<li><a href="https://git-scm.com/download/win">Git</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="确认Node-js是否安装成功"><a href="#确认Node-js是否安装成功" class="headerlink" title="确认Node.js是否安装成功"></a>确认Node.js是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v 或 npm -v     <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<span id="more"></span>	
+<ul>
+<li><h4 id="npm添加国内镜像源"><a href="#npm添加国内镜像源" class="headerlink" title="npm添加国内镜像源"></a>npm添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><h4 id="验证git是否安装成功"><a href="#验证git是否安装成功" class="headerlink" title="验证git是否安装成功"></a>验证git是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version         <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v                ##验证是否安装成功</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init             <span class="comment">##初始化文件夹</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install           ##安装必备的组件</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="本地测试博客"><a href="#本地测试博客" class="headerlink" title="本地测试博客"></a>本地测试博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g                <span class="comment">##生成静态网页</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                ##打开本地服务器</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的名字&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="生成密钥SSH-key"><a href="#生成密钥SSH-key" class="headerlink" title="生成密钥SSH key"></a>生成密钥SSH key</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span>   <span class="comment">##生成密钥SSH key</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub             ##获取SSH key填入github</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com             ##测试github连接</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><h4 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-deployer-git           <span class="comment">##首次需要安装一个扩展</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;文章标题&quot;          </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g                            ##生成静态网页</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                            ##本地预览效果</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d                            ##上传到github上</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
       <categories>
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>tiktok</tag>
-        <tag>科学上网</tag>
+        <tag>hexo</tag>
+        <tag>github pages</tag>
+        <tag>博客</tag>
+        <tag>轻量</tag>
+        <tag>稳定</tag>
+        <tag>Git</tag>
+        <tag>nodejs</tag>
       </tags>
   </entry>
   <entry>
-    <title>私藏谷歌浏览器插件</title>
+    <title>网页变化如何监控1，开源ChangeDetection搭建</title>
+    <url>/20231116144016/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li>VPS</li>
+<li><a href="https://www.bt.cn/new/index.html">宝塔面板</a></li>
+<li>Python(Changedetection需要python3.7以上版本)</li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="卸载旧版python3-x"><a href="#卸载旧版python3-x" class="headerlink" title="卸载旧版python3.x"></a>卸载旧版python3.x</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps     <span class="comment">##卸载pyhton3</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">whereis python3 |xargs rm -frv          ##删除所有残余文件</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="检查系统中现存的python版本"><a href="#检查系统中现存的python版本" class="headerlink" title="检查系统中现存的python版本"></a>检查系统中现存的python版本</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">whereis python     <span class="comment">##通过此命令查看现有python的位置</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz  <span class="comment">##下载安装包</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar -xzvf Python-3.7.5.tgz   ##解压</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd Python-3.7.5   ##进入文件夹</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./configure -prefix=/usr/local/python3.7.5 ##注意：prefix参数用于指定将Python安装在新目录，防止覆盖宝塔系统默认安装的python2.x</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make &amp;&amp; make install ##编译</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="建立软链接"><a href="#建立软链接" class="headerlink" title="建立软链接"></a>建立软链接</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf /usr/bin/python3                                       <span class="comment">##删除原有链接</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ln -s /usr/local/python3.7.5/bin/python3.7 /usr/bin/python3   ##建立python3新的软连接</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rm -rf /usr/bin/pip                                 ##删除原有链接</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ln -s /usr/local/python3.7.5/bin/pip3 /usr/bin/pip  ##建立pip3新的软连接</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="检查pip版本"><a href="#检查pip版本" class="headerlink" title="检查pip版本"></a>检查pip版本</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip -V       <span class="comment">##大写V</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="重装pip-如果有报错才需要"><a href="#重装pip-如果有报错才需要" class="headerlink" title="重装pip(如果有报错才需要)"></a>重装pip(如果有报错才需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf /usr/bin/pip  <span class="comment">##删除原有链接</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 get-pip.py --force-reinstall ##强制重装pip</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="安装ChangeDetection"><a href="#安装ChangeDetection" class="headerlink" title="安装ChangeDetection"></a>安装ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install changedetection.io</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="安装特定版本命令-如有需要"><a href="#安装特定版本命令-如有需要" class="headerlink" title="安装特定版本命令(如有需要)"></a>安装特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install changedetection.io==0.45.5  <span class="comment">##安装0.45.5版本</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="卸载特定版本命令-如有需要"><a href="#卸载特定版本命令-如有需要" class="headerlink" title="卸载特定版本命令(如有需要)"></a>卸载特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip uninstall changedetection.io==0.45.5  <span class="comment">##卸载0.45.5版本</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="运行ChangeDetection"><a href="#运行ChangeDetection" class="headerlink" title="运行ChangeDetection"></a>运行ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ln</span> -s /usr/local/python3.7.5/bin/changedetection.io /usr/bin/changedetection.io    <span class="comment">##建立changedetection.io软连接</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir /www/wwwroot/ChangeDetection     ##建立changedetection工作文件夹</span><br></pre></td></tr></table></figure>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">changedetection.io -d /www/wwwroot/ChangeDetection -p 5000            ##在宝塔面板开放5000端口就可以访问了</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><ol>
+<li><a href="https://changedetection.io/">Changedetection官网</a></li>
+<li><a href="https://github.com/dgtlmoon/changedetection.io">Changedetection Github</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>设备同步神器Syncthing，无服务器中转</title>
+    <url>/20231122233859/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>文件同步</tag>
+        <tag>Syncthing</tag>
+        <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网页变化如何监控2，支持局部监控</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
     <url>/20231201182406/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -373,5 +378,23 @@
       <categories>
         <category>免费资源</category>
       </categories>
+  </entry>
+  <entry>
+    <title>适合国人长期日常使用tiktok的方法</title>
+    <url>/20231203131227/</url>
+    <content><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p>
+<h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul>
+<li>网页版  </li>
+<li>拔卡 + 设置系统区域  </li>
+<li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>tiktok</tag>
+        <tag>科学上网</tag>
+      </tags>
   </entry>
 </search>
