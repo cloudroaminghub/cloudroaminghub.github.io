@@ -3,7 +3,10 @@
   <entry>
     <title>ChatGPT中国怎么用2，超火chatgpt Web免费容器部署</title>
     <url>/20231208223040/</url>
-    <content><![CDATA[<h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><ul>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/un4dU_r6Lno?si=NIXpJ4T8uriTEFuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><ul>
 <li><p>点击<a href="https://platform.openai.com/signup">注册OpenAI账号</a></p>
 </li>
 <li><p>点击<a href="https://platform.openai.com/api-keys">获取OpenAI API Key</a></p>
@@ -26,18 +29,6 @@
 <li><a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT-Next-Web GitHub地址</a></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
-    <url>/20231123185141/</url>
-    <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>PDF编辑</tag>
-      </tags>
   </entry>
   <entry>
     <title>ChatGPT中国怎么用，最佳chatgpt客户端</title>
@@ -98,6 +89,18 @@
       </tags>
   </entry>
   <entry>
+    <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
+    <url>/20231123185141/</url>
+    <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>PDF编辑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/20231116141339/</url>
     <content><![CDATA[<p>Hello World!</p>
@@ -123,6 +126,28 @@
       <tags>
         <tag>PDF编辑</tag>
         <tag>教科书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>互传照片文件，netflix会员合租，网页翻译，远程支持</title>
+    <url>/20231121231527/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
+<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
+<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
+<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>Snapdrop</tag>
+        <tag>网页翻译</tag>
+        <tag>远程桌面</tag>
+        <tag>会员合租</tag>
       </tags>
   </entry>
   <entry>
@@ -180,6 +205,74 @@
       </tags>
   </entry>
   <entry>
+    <title>博客防失联之自建免费邮件订阅服务</title>
+    <url>/20231214133501/</url>
+    <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>listmonk是一款开源的邮件营销系统(EDM)，具备付费EDM的基本功能(邮件订阅，营销信息批量发送)，可以很方便的用在自己搭建的博客或网站系统上，建立起一种跟网友之间保持联系的机制</p>
+<h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><ul>
+<li><h4 id="搭建listmonk"><a href="#搭建listmonk" class="headerlink" title="搭建listmonk"></a>搭建listmonk</h4><ul>
+<li><p>下载配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir listmonk &amp;&amp; cd listmonk</span><br><span class="line">wget -O config.toml https://raw.githubusercontent.com/knadh/listmonk/master/config.toml.sample</span><br><span class="line">wget -O docker-compose.yml https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml</span><br></pre></td></tr></table></figure></li>
+<li><p>修改配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin_password = &quot;listmonk&quot;   #后台登录密码，在config.toml中</span><br><span class="line">password = &quot;listmonk&quot;         #数据库密码，与POSTGRES_PASSWORD要保持一致，在config.toml中</span><br><span class="line">POSTGRES_PASSWORD=listmonk    #要与上面password保持一致，在docker-compose.yml中</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行 Postgres 数据库 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker compose up db</span><br></pre></td></tr></table></figure></li>
+<li><p>设置数据库（或 –upgrade 升级现有数据库）。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker compose run --rm app ./listmonk --install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行app 并访问 <a href="http://localhost:9000/">http://localhost:9000</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker compose up app</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><h4 id="设置SSL"><a href="#设置SSL" class="headerlink" title="设置SSL"></a>设置SSL</h4><ul>
+<li><p>在listmonk目录下拉取项目文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/wmnnd/nginx-certbot.git</span><br></pre></td></tr></table></figure></li>
+<li><p>进入目录nginx-certbot</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd nginx-certbot</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置域名DNS解析到该服务器</p>
+</li>
+<li><p>修改配置，将域名和电子邮件地址添加到 init-letsencrypt.sh</p>
+</li>
+<li><p>将 data&#x2F;nginx&#x2F;app.conf 中所有出现的 example.org 替换为主域（您添加到 init-letsencrypt.sh 的第一个域）</p>
+</li>
+<li><p>将 data&#x2F;nginx&#x2F;app.conf中</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">proxy_pass  http://example.org; </span><br></pre></td></tr></table></figure>
+<p>改成 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">proxy_pass  http://app:9000;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行初始化脚本：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./init-letsencrypt.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>运行服务器：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h3 id="自动回复临时方案"><a href="#自动回复临时方案" class="headerlink" title="自动回复临时方案"></a>自动回复临时方案</h3><p>但listmonk缺少一个针对新订阅用户的自动回复功能，借助ChatGPT写了一个简单方案，基本逻辑就是起一个定时任务，调用API检查订阅列表是否有新增用户，如有符合条件的新增用户，根据用户的状态(confirmed, unconfirmed)发送响应的邮件<br>可以达到如下目的：</p>
+<ol>
+<li>发送欢迎信</li>
+<li>跟进用户订阅确认情况</li>
+<li>给已确认用户发送活动信息</li>
+</ol>
+<h3 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h3><p>可以点击下方<a href="https://subscribe.cloudroaminghub.com/">订阅邮件</a>订阅查看具体效果，默认设置是10分钟检查一次，自动回复会有1-10分钟不等延迟</p>
+<h3 id="使用流程如下"><a href="#使用流程如下" class="headerlink" title="使用流程如下:"></a>使用流程如下:</h3><ol>
+<li>先部署好<a href="https://github.com/knadh/listmonk">listmonk</a></li>
+<li>下载<a href="https://github.com/cloudroaminghub/listmonk-autoreply-onsubscription">check_subscribers.sh</a></li>
+<li>配置认证信息和针对不同用户回复邮件模板</li>
+<li>修改运行权限<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chmod +x check_subscribers.sh</span><br></pre></td></tr></table></figure></li>
+<li>添加一个定时任务<br>运行<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crontab -e</span><br></pre></td></tr></table></figure>
+添加下面这一行(默认10分钟，自行调整的话需要跟脚本中的设置一致)<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*/10 * * * * /path/to/check_subscribers.sh &gt;&gt; /path/to/crontab_check_subs.log 2&gt;&amp;1</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>listmonk</tag>
+        <tag>EDM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
     <url>/20231123184624/</url>
     <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
@@ -191,28 +284,6 @@
         <tag>短信转发</tag>
         <tag>微信转发</tag>
         <tag>通知转发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>互传照片文件，netflix会员合租，网页翻译，远程支持</title>
-    <url>/20231121231527/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p>
-<p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p>
-<p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p>
-<p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>Snapdrop</tag>
-        <tag>网页翻译</tag>
-        <tag>远程桌面</tag>
-        <tag>会员合租</tag>
       </tags>
   </entry>
   <entry>
@@ -319,63 +390,6 @@
       </tags>
   </entry>
   <entry>
-    <title>设备同步神器Syncthing，无服务器中转</title>
-    <url>/20231122233859/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>文件同步</tag>
-        <tag>Syncthing</tag>
-        <tag>同步神器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超全IPTV源</title>
-    <url>/20231123184915/</url>
-    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
-    <url>/20231201182406/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<ul>
-<li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul>
-<li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li>
-<li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li>
-</ul>
-</li>
-<li>Youtube双语字幕 - YouTube™ dual subtitles (搜索: 字幕 或 dual subtitles)  </li>
-<li>图片批量下载 - ImageAssistant Batch Image Downloader (搜索: 图片助手 或 ImageAssistant)  </li>
-<li>浏览器历史 - Better History (搜索: Better History)  </li>
-<li>去广告 - Adblock Plus (搜索: Adblock)</li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>谷歌浏览器</tag>
-        <tag>插件</tag>
-        <tag>油猴</tag>
-        <tag>Tampermonkey</tag>
-        <tag>去广告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网页变化如何监控2，支持局部监控</title>
     <url>/20231117161222/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -408,6 +422,54 @@
       </tags>
   </entry>
   <entry>
+    <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
+    <url>/20231201182406/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<ul>
+<li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul>
+<li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li>
+<li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li>
+</ul>
+</li>
+<li>Youtube双语字幕 - YouTube™ dual subtitles (搜索: 字幕 或 dual subtitles)  </li>
+<li>图片批量下载 - ImageAssistant Batch Image Downloader (搜索: 图片助手 或 ImageAssistant)  </li>
+<li>浏览器历史 - Better History (搜索: Better History)  </li>
+<li>去广告 - Adblock Plus (搜索: Adblock)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>谷歌浏览器</tag>
+        <tag>插件</tag>
+        <tag>油猴</tag>
+        <tag>Tampermonkey</tag>
+        <tag>去广告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>设备同步神器Syncthing，无服务器中转</title>
+    <url>/20231122233859/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<p><a href="https://syncthing.net/">同步神器Syncthing</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>文件同步</tag>
+        <tag>Syncthing</tag>
+        <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>适合国人长期日常使用tiktok的方法</title>
     <url>/20231203131227/</url>
     <content><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p>
@@ -424,5 +486,14 @@
         <tag>tiktok</tag>
         <tag>科学上网</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>超全IPTV源</title>
+    <url>/20231123184915/</url>
+    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
   </entry>
 </search>
