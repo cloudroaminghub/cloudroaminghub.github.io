@@ -151,59 +151,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客防失联之自建免费邮件订阅服务</title>
-    <url>/20231214133501/</url>
-    <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>listmonk是一款开源的邮件营销系统(EDM)，具备付费EDM的基本功能(邮件订阅，营销信息批量发送)，可以很方便的用在自己搭建的博客或网站系统上，建立起一种跟网友之间保持联系的机制</p>
-<h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><ul>
-<li><h4 id="搭建listmonk"><a href="#搭建listmonk" class="headerlink" title="搭建listmonk"></a>搭建listmonk</h4><ul>
-<li><p>安装docker和docker-compose<br><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)<br><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a>(注意修改安装版本号，选择一个较新的版本安装)</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl enable docker        #设置开机自动启动docker</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl start docker         #启动docker</span><br></pre></td></tr></table></figure></li>
-<li><p>下载配置文件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir listmonk &amp;&amp; cd listmonk</span><br><span class="line">wget -O config.toml https://raw.githubusercontent.com/knadh/listmonk/master/config.toml.sample</span><br><span class="line">wget -O docker-compose.yml https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml</span><br></pre></td></tr></table></figure></li>
-<li><p>修改配置文件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">address = &quot;0.0.0.0:9000&quot;      #在config.toml中</span><br><span class="line">admin_password = &quot;listmonk&quot;   #在config.toml中，后台登录密码</span><br><span class="line">host = &quot;listmonk_db&quot;          #在config.toml中，localhost改成listmonk_db</span><br><span class="line">password = &quot;listmonk&quot;         #在config.toml中，数据库密码，与POSTGRES_PASSWORD要保持一致，</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POSTGRES_PASSWORD=listmonk    #在docker-compose.yml中，要与上面password保持一致</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>运行 Postgres 数据库 </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up -d db</span><br></pre></td></tr></table></figure></li>
-<li><p>设置数据库（或 –upgrade 升级现有数据库）。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose run --rm app ./listmonk --install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>运行app 并访问 <a href="http://localhost:9000/">http://localhost:9000</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up -d app</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><h4 id="设置SSL访问-适合当前服务器已安装nginx和证书"><a href="#设置SSL访问-适合当前服务器已安装nginx和证书" class="headerlink" title="设置SSL访问(适合当前服务器已安装nginx和证书)"></a>设置SSL访问(适合当前服务器已安装nginx和证书)</h4><ul>
-<li>修改nginx配置文件，增加下面的https反代http即可<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen       2087 ssl;</span><br><span class="line">    server_name  subs.1ave.eu.org;</span><br><span class="line"> </span><br><span class="line">    ssl_certificate      /etc/nginx/fullchain.cer;</span><br><span class="line">    ssl_certificate_key  /etc/nginx/1ave.eu.org.key;</span><br><span class="line"></span><br><span class="line">    ssl_session_timeout  5m;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://localhost:9000;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart nginx.service</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-</ul>
-<h3 id="自动回复临时方案"><a href="#自动回复临时方案" class="headerlink" title="自动回复临时方案"></a>自动回复临时方案</h3><p>但listmonk缺少一个针对新订阅用户的自动回复功能，借助ChatGPT写了一个简单方案，基本逻辑就是起一个定时任务，调用API检查订阅列表是否有新增用户，如有符合条件的新增用户，根据用户的状态(confirmed, unconfirmed)发送响应的邮件<br>可以达到如下目的：</p>
-<ol>
-<li>发送欢迎信</li>
-<li>跟进用户订阅确认情况</li>
-<li>给已确认用户发送活动信息</li>
-</ol>
-<h3 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h3><p>可以点击下方<a href="https://subscribe.cloudroaminghub.com/">订阅邮件</a>订阅查看具体效果，默认设置是10分钟检查一次，自动回复会有1-10分钟不等延迟</p>
-<h3 id="使用流程如下"><a href="#使用流程如下" class="headerlink" title="使用流程如下:"></a>使用流程如下:</h3><ol>
-<li>下载check_subscribers.sh<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O check_subscribers.sh https://raw.githubusercontent.com/cloudroaminghub/listmonk-autoreply-onsubscription/master/check_subscribers.sh</span><br></pre></td></tr></table></figure></li>
-<li>配置认证信息和针对不同用户回复邮件模板</li>
-<li>修改运行权限<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chmod +x check_subscribers.sh</span><br></pre></td></tr></table></figure></li>
-<li>添加一个定时任务<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crontab -e   #运行后，添加下面这一行到文件末尾(默认10分钟，自行调整的话需要跟脚本中的设置一致)  </span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*/10 * * * * /path/to/check_subscribers.sh &gt;&gt; /path/to/crontab_check_subs.log 2&gt;&amp;1</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>listmonk</tag>
-        <tag>EDM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
     <url>/20231116152410/</url>
     <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
@@ -255,6 +202,59 @@
         <tag>稳定</tag>
         <tag>Git</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客防失联之自建免费邮件订阅服务</title>
+    <url>/20231214133501/</url>
+    <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>listmonk是一款开源的邮件营销系统(EDM)，具备付费EDM的基本功能(邮件订阅，营销信息批量发送)，可以很方便的用在自己搭建的博客或网站系统上，建立起一种跟网友之间保持联系的机制</p>
+<h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><ul>
+<li><h4 id="搭建listmonk"><a href="#搭建listmonk" class="headerlink" title="搭建listmonk"></a>搭建listmonk</h4><ul>
+<li><p>安装docker和docker-compose<br><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)<br><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a>(注意修改安装版本号，选择一个较新的版本安装)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl enable docker        #设置开机自动启动docker</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl start docker         #启动docker</span><br></pre></td></tr></table></figure></li>
+<li><p>下载配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir listmonk &amp;&amp; cd listmonk</span><br><span class="line">wget -O config.toml https://raw.githubusercontent.com/knadh/listmonk/master/config.toml.sample</span><br><span class="line">wget -O docker-compose.yml https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml</span><br></pre></td></tr></table></figure></li>
+<li><p>修改配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">address = &quot;0.0.0.0:9000&quot;      #在config.toml中</span><br><span class="line">admin_password = &quot;listmonk&quot;   #在config.toml中，后台登录密码</span><br><span class="line">host = &quot;listmonk_db&quot;          #在config.toml中，localhost改成listmonk_db</span><br><span class="line">password = &quot;listmonk&quot;         #在config.toml中，数据库密码，与POSTGRES_PASSWORD要保持一致，</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POSTGRES_PASSWORD=listmonk    #在docker-compose.yml中，要与上面password保持一致</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行 Postgres 数据库 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up -d db</span><br></pre></td></tr></table></figure></li>
+<li><p>设置数据库（或 –upgrade 升级现有数据库）。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose run --rm app ./listmonk --install</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行app 并访问 <a href="http://localhost:9000/">http://localhost:9000</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker-compose up -d app</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><h4 id="设置SSL访问-适合当前服务器已安装nginx和证书"><a href="#设置SSL访问-适合当前服务器已安装nginx和证书" class="headerlink" title="设置SSL访问(适合当前服务器已安装nginx和证书)"></a>设置SSL访问(适合当前服务器已安装nginx和证书)</h4><ul>
+<li>修改nginx配置文件，增加下面的https反代http即可<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen       2087 ssl;</span><br><span class="line">    server_name  subs.1ave.eu.org;</span><br><span class="line"> </span><br><span class="line">    ssl_certificate      /etc/nginx/fullchain.cer;</span><br><span class="line">    ssl_certificate_key  /etc/nginx/1ave.eu.org.key;</span><br><span class="line"></span><br><span class="line">    ssl_session_timeout  5m;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://localhost:9000;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart nginx.service      #重启nginx服务</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h3 id="自动回复临时方案"><a href="#自动回复临时方案" class="headerlink" title="自动回复临时方案"></a>自动回复临时方案</h3><p>但listmonk缺少一个针对新订阅用户的自动回复功能，借助ChatGPT写了一个简单方案，基本逻辑就是起一个定时任务，调用API检查订阅列表是否有新增用户，如有符合条件的新增用户，根据用户的状态(confirmed, unconfirmed)发送响应的邮件<br>可以达到如下目的：</p>
+<ol>
+<li>发送欢迎信</li>
+<li>跟进用户订阅确认情况</li>
+<li>给已确认用户发送活动信息</li>
+</ol>
+<h3 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h3><p>可以点击下方<a href="https://subscribe.cloudroaminghub.com/">订阅邮件</a>订阅查看具体效果，默认设置是10分钟检查一次，自动回复会有1-10分钟不等延迟</p>
+<h3 id="使用流程如下"><a href="#使用流程如下" class="headerlink" title="使用流程如下:"></a>使用流程如下:</h3><ol>
+<li>下载check_subscribers.sh<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget -O check_subscribers.sh https://raw.githubusercontent.com/cloudroaminghub/listmonk-autoreply-onsubscription/master/check_subscribers.sh</span><br></pre></td></tr></table></figure></li>
+<li>配置认证信息和针对不同用户回复邮件模板</li>
+<li>修改运行权限<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chmod +x check_subscribers.sh</span><br></pre></td></tr></table></figure></li>
+<li>添加一个定时任务<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">crontab -e   #运行后，添加下面这一行到文件末尾(默认10分钟，自行调整的话需要跟脚本中的设置一致)  </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*/10 * * * * /path/to/check_subscribers.sh &gt;&gt; /path/to/crontab_check_subs.log 2&gt;&amp;1</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>listmonk</tag>
+        <tag>EDM</tag>
       </tags>
   </entry>
   <entry>
@@ -375,6 +375,38 @@
       </tags>
   </entry>
   <entry>
+    <title>网页变化如何监控2，支持局部监控</title>
+    <url>/20231117161222/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
+<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>网站监控</tag>
+        <tag>开源系统</tag>
+        <tag>宝塔面板</tag>
+        <tag>ChangeDetection</tag>
+        <tag>网页内容变化监测</tag>
+        <tag>网页内容监控</tag>
+        <tag>ChangeDetection教程</tag>
+        <tag>ChangeDetection部署</tag>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>设备同步神器Syncthing，无服务器中转</title>
     <url>/20231122233859/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -420,38 +452,6 @@
         <tag>油猴</tag>
         <tag>Tampermonkey</tag>
         <tag>去广告</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网页变化如何监控2，支持局部监控</title>
-    <url>/20231117161222/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li>
-<li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>网站监控</tag>
-        <tag>开源系统</tag>
-        <tag>宝塔面板</tag>
-        <tag>ChangeDetection</tag>
-        <tag>网页内容变化监测</tag>
-        <tag>网页内容监控</tag>
-        <tag>ChangeDetection教程</tag>
-        <tag>ChangeDetection部署</tag>
-        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
