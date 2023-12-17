@@ -50,6 +50,15 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/20231116141339/</url>
+    <content><![CDATA[<p>Hello World!</p>
+]]></content>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
     <url>/20231123185141/</url>
     <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
@@ -98,15 +107,6 @@
         <tag>爬虫</tag>
         <tag>GPTs</tag>
         <tag>问答机器人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/20231116141339/</url>
-    <content><![CDATA[<p>Hello World!</p>
-]]></content>
-      <tags>
-        <tag>Hello World</tag>
       </tags>
   </entry>
   <entry>
@@ -175,7 +175,8 @@
 </ul>
 </li>
 <li><h4 id="设置SSL访问-适合当前服务器已安装nginx和证书"><a href="#设置SSL访问-适合当前服务器已安装nginx和证书" class="headerlink" title="设置SSL访问(适合当前服务器已安装nginx和证书)"></a>设置SSL访问(适合当前服务器已安装nginx和证书)</h4><ul>
-<li>修改nginx配置文件，增加下面的https反代http即可<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen       2087 ssl;</span><br><span class="line">    server_name  subs.1ave.eu.org;</span><br><span class="line"> </span><br><span class="line">    ssl_certificate      /etc/nginx/fullchain.cer;</span><br><span class="line">    ssl_certificate_key  /etc/nginx/1ave.eu.org.key;</span><br><span class="line"></span><br><span class="line">    ssl_session_timeout  5m;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://localhost:9000;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>修改nginx配置文件，增加下面的https反代http即可<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen       2087 ssl;</span><br><span class="line">    server_name  subs.1ave.eu.org;</span><br><span class="line"> </span><br><span class="line">    ssl_certificate      /etc/nginx/fullchain.cer;</span><br><span class="line">    ssl_certificate_key  /etc/nginx/1ave.eu.org.key;</span><br><span class="line"></span><br><span class="line">    ssl_session_timeout  5m;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://localhost:9000;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart nginx.service</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 </ul>
@@ -254,6 +255,20 @@
         <tag>稳定</tag>
         <tag>Git</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
+    <url>/20231123184624/</url>
+    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>短信转发</tag>
+        <tag>微信转发</tag>
+        <tag>通知转发</tag>
       </tags>
   </entry>
   <entry>
@@ -360,20 +375,6 @@
       </tags>
   </entry>
   <entry>
-    <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
-    <url>/20231123184624/</url>
-    <content><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>短信转发</tag>
-        <tag>微信转发</tag>
-        <tag>通知转发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>设备同步神器Syncthing，无服务器中转</title>
     <url>/20231122233859/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -389,6 +390,36 @@
         <tag>文件同步</tag>
         <tag>Syncthing</tag>
         <tag>同步神器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
+    <url>/20231201182406/</url>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<span id="more"></span>
+
+<ul>
+<li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul>
+<li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li>
+<li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li>
+</ul>
+</li>
+<li>Youtube双语字幕 - YouTube™ dual subtitles (搜索: 字幕 或 dual subtitles)  </li>
+<li>图片批量下载 - ImageAssistant Batch Image Downloader (搜索: 图片助手 或 ImageAssistant)  </li>
+<li>浏览器历史 - Better History (搜索: Better History)  </li>
+<li>去广告 - Adblock Plus (搜索: Adblock)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>谷歌浏览器</tag>
+        <tag>插件</tag>
+        <tag>油猴</tag>
+        <tag>Tampermonkey</tag>
+        <tag>去广告</tag>
       </tags>
   </entry>
   <entry>
@@ -421,36 +452,6 @@
         <tag>ChangeDetection教程</tag>
         <tag>ChangeDetection部署</tag>
         <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
-    <url>/20231201182406/</url>
-    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<span id="more"></span>
-
-<ul>
-<li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul>
-<li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li>
-<li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li>
-</ul>
-</li>
-<li>Youtube双语字幕 - YouTube™ dual subtitles (搜索: 字幕 或 dual subtitles)  </li>
-<li>图片批量下载 - ImageAssistant Batch Image Downloader (搜索: 图片助手 或 ImageAssistant)  </li>
-<li>浏览器历史 - Better History (搜索: Better History)  </li>
-<li>去广告 - Adblock Plus (搜索: Adblock)</li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>谷歌浏览器</tag>
-        <tag>插件</tag>
-        <tag>油猴</tag>
-        <tag>Tampermonkey</tag>
-        <tag>去广告</tag>
       </tags>
   </entry>
   <entry>
