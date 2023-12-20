@@ -6,7 +6,7 @@
   <link href="https://cloudroaminghub.com/atom.xml" rel="self"/>
   
   <link href="https://cloudroaminghub.com/"/>
-  <updated>2023-12-20T14:47:33.409Z</updated>
+  <updated>2023-12-20T17:05:38.403Z</updated>
   <id>https://cloudroaminghub.com/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="https://cloudroaminghub.com/20231220223402/"/>
     <id>https://cloudroaminghub.com/20231220223402/</id>
     <published>2023-12-20T14:34:02.000Z</published>
-    <updated>2023-12-20T14:47:33.409Z</updated>
+    <updated>2023-12-20T17:05:38.403Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></li><li>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></li><li>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li>配置域名</li></ul>]]></content>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></li><li>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></li><li>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li>配置域名</li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;获取&lt;a href=&quot;https://makersuite.google.com/app/apikey&quot;&gt;API Key&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;注册&lt;a href=&quot;https://github.com/&quot;&gt;GitHub账号&lt;/a&gt; 参考&lt;a href=&quot;h</summary>
+    <summary type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE&quot; title=&quot;YouTube video player&quot; frameborde</summary>
       
     
     
@@ -303,9 +301,9 @@
     <category term="免费资源" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="PDF编辑" scheme="https://cloudroaminghub.com/tags/PDF%E7%BC%96%E8%BE%91/"/>
-    
     <category term="教科书" scheme="https://cloudroaminghub.com/tags/%E6%95%99%E7%A7%91%E4%B9%A6/"/>
+    
+    <category term="PDF编辑" scheme="https://cloudroaminghub.com/tags/PDF%E7%BC%96%E8%BE%91/"/>
     
   </entry>
   

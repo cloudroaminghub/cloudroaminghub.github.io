@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/20231116141339/</url>
-    <content><![CDATA[<p>Hello World!</p>
-]]></content>
-      <tags>
-        <tag>Hello World</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ChatGPT中国怎么用2，超火chatgpt Web免费容器部署</title>
     <url>/20231208223040/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/un4dU_r6Lno?si=NIXpJ4T8uriTEFuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -61,7 +52,9 @@
   <entry>
     <title>GeminiProChat中国怎么用，免费apikey配合Web端随时随地可用</title>
     <url>/20231220223402/</url>
-    <content><![CDATA[<ul>
+    <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<ul>
 <li>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></li>
 <li>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li>
 <li>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li>
@@ -84,15 +77,12 @@
       </tags>
   </entry>
   <entry>
-    <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
-    <url>/20231123185141/</url>
-    <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
+    <title>Hello World</title>
+    <url>/20231116141339/</url>
+    <content><![CDATA[<p>Hello World!</p>
 ]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
       <tags>
-        <tag>PDF编辑</tag>
+        <tag>Hello World</tag>
       </tags>
   </entry>
   <entry>
@@ -110,8 +100,20 @@
         <category>免费资源</category>
       </categories>
       <tags>
-        <tag>PDF编辑</tag>
         <tag>教科书</tag>
+        <tag>PDF编辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
+    <url>/20231123185141/</url>
+    <content><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>PDF编辑</tag>
       </tags>
   </entry>
   <entry>
@@ -176,60 +178,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
-    <url>/20231116152410/</url>
-    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
-<li><a href="https://nodejs.org/en">Node.js</a></li>
-<li><a href="https://git-scm.com/download/win">Git</a></li>
-</ol>
-<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
-<li><h4 id="确认Node-js是否安装成功"><a href="#确认Node-js是否安装成功" class="headerlink" title="确认Node.js是否安装成功"></a>确认Node.js是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v 或 npm -v     <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<span id="more"></span>	
-<ul>
-<li><h4 id="npm添加国内镜像源"><a href="#npm添加国内镜像源" class="headerlink" title="npm添加国内镜像源"></a>npm添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-</li>
-<li><h4 id="验证git是否安装成功"><a href="#验证git是否安装成功" class="headerlink" title="验证git是否安装成功"></a>验证git是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version         <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v                ##验证是否安装成功</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init             <span class="comment">##初始化文件夹</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install           ##安装必备的组件</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="本地测试博客"><a href="#本地测试博客" class="headerlink" title="本地测试博客"></a>本地测试博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g                <span class="comment">##生成静态网页</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                ##打开本地服务器</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的名字&quot;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><h4 id="生成密钥SSH-key"><a href="#生成密钥SSH-key" class="headerlink" title="生成密钥SSH key"></a>生成密钥SSH key</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span>   <span class="comment">##生成密钥SSH key</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub             ##获取SSH key填入github</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com             ##测试github连接</span><br></pre></td></tr></table></figure>
-
-</li>
-<li><h4 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-deployer-git           <span class="comment">##首次需要安装一个扩展</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;文章标题&quot;          </span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g                            ##生成静态网页</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                            ##本地预览效果</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d                            ##上传到github上</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github pages</tag>
-        <tag>博客</tag>
-        <tag>轻量</tag>
-        <tag>稳定</tag>
-        <tag>Git</tag>
-        <tag>nodejs</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客防失联之自建免费邮件订阅服务</title>
     <url>/20231214133501/</url>
     <content><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/8roE6UU7QDk?si=ef4ufizPB1WSvqPz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -284,6 +232,60 @@
       <tags>
         <tag>listmonk</tag>
         <tag>EDM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
+    <url>/20231116152410/</url>
+    <content><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol>
+<li><a href="https://nodejs.org/en">Node.js</a></li>
+<li><a href="https://git-scm.com/download/win">Git</a></li>
+</ol>
+<h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul>
+<li><h4 id="确认Node-js是否安装成功"><a href="#确认Node-js是否安装成功" class="headerlink" title="确认Node.js是否安装成功"></a>确认Node.js是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v 或 npm -v     <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<span id="more"></span>	
+<ul>
+<li><h4 id="npm添加国内镜像源"><a href="#npm添加国内镜像源" class="headerlink" title="npm添加国内镜像源"></a>npm添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><h4 id="验证git是否安装成功"><a href="#验证git是否安装成功" class="headerlink" title="验证git是否安装成功"></a>验证git是否安装成功</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version         <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v                ##验证是否安装成功</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init             <span class="comment">##初始化文件夹</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install           ##安装必备的组件</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="本地测试博客"><a href="#本地测试博客" class="headerlink" title="本地测试博客"></a>本地测试博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g                <span class="comment">##生成静态网页</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                ##打开本地服务器</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的名字&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="生成密钥SSH-key"><a href="#生成密钥SSH-key" class="headerlink" title="生成密钥SSH key"></a>生成密钥SSH key</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span>   <span class="comment">##生成密钥SSH key</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub             ##获取SSH key填入github</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com             ##测试github连接</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><h4 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-deployer-git           <span class="comment">##首次需要安装一个扩展</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;文章标题&quot;          </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g                            ##生成静态网页</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s                            ##本地预览效果</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d                            ##上传到github上</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github pages</tag>
+        <tag>博客</tag>
+        <tag>轻量</tag>
+        <tag>稳定</tag>
+        <tag>Git</tag>
+        <tag>nodejs</tag>
       </tags>
   </entry>
   <entry>
@@ -484,6 +486,15 @@
       </tags>
   </entry>
   <entry>
+    <title>超全IPTV源</title>
+    <url>/20231123184915/</url>
+    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
+]]></content>
+      <categories>
+        <category>免费资源</category>
+      </categories>
+  </entry>
+  <entry>
     <title>适合国人长期日常使用tiktok的方法</title>
     <url>/20231203131227/</url>
     <content><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p>
@@ -503,14 +514,5 @@
         <tag>tiktok</tag>
         <tag>科学上网</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>超全IPTV源</title>
-    <url>/20231123184915/</url>
-    <content><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>
-]]></content>
-      <categories>
-        <category>免费资源</category>
-      </categories>
   </entry>
 </search>
