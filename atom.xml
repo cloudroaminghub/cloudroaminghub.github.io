@@ -6,7 +6,7 @@
   <link href="https://cloudroaminghub.com/atom.xml" rel="self"/>
   
   <link href="https://cloudroaminghub.com/"/>
-  <updated>2023-12-18T16:16:27.577Z</updated>
+  <updated>2023-12-20T14:47:33.409Z</updated>
   <id>https://cloudroaminghub.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GeminiProChat中国怎么用，免费apikey配合Web端随时随地可用</title>
+    <link href="https://cloudroaminghub.com/20231220223402/"/>
+    <id>https://cloudroaminghub.com/20231220223402/</id>
+    <published>2023-12-20T14:34:02.000Z</published>
+    <updated>2023-12-20T14:47:33.409Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></li><li>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></li><li>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li>配置域名</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;获取&lt;a href=&quot;https://makersuite.google.com/app/apikey&quot;&gt;API Key&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;注册&lt;a href=&quot;https://github.com/&quot;&gt;GitHub账号&lt;/a&gt; 参考&lt;a href=&quot;h</summary>
+      
+    
+    
+    
+    <category term="免费资源" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="GeminiPro" scheme="https://cloudroaminghub.com/tags/GeminiPro/"/>
+    
+    <category term="GeminiProChat" scheme="https://cloudroaminghub.com/tags/GeminiProChat/"/>
+    
+  </entry>
   
   <entry>
     <title>博客防失联之自建免费邮件订阅服务</title>
@@ -61,9 +89,9 @@
     <link href="https://cloudroaminghub.com/20231203131227/"/>
     <id>https://cloudroaminghub.com/20231203131227/</id>
     <published>2023-12-03T05:12:27.000Z</published>
-    <updated>2023-12-08T13:54:55.641Z</updated>
+    <updated>2023-12-20T14:30:13.069Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p><h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul><li>网页版  </li><li>拔卡 + 设置系统区域  </li><li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p><h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul><li>网页版  </li><li>拔卡 + 设置系统区域  </li><li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)<ul><li>分享一个iOS切换sim卡的<a href="https://www.icloud.com/shortcuts/c7b873e7e2334a04b44149b5d5a52610">快捷指令</a>，关闭主号(国内卡)，等待10秒后再打开主号(国内卡)，同时设置默认语音和数据为主号(国内卡)<br>可以设置成打开tiktok的时候运行此快捷指令，这样就可以无感刷tiktok了</li></ul></li></ul>]]></content>
     
     
     <summary type="html">分享国内使用tiktok的方法</summary>
