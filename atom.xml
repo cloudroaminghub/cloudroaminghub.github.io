@@ -6,7 +6,7 @@
   <link href="https://cloudroaminghub.com/atom.xml" rel="self"/>
   
   <link href="https://cloudroaminghub.com/"/>
-  <updated>2023-12-20T17:05:38.403Z</updated>
+  <updated>2023-12-23T14:16:47.820Z</updated>
   <id>https://cloudroaminghub.com/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GeminiProChat中国怎么用，免费apikey配合Web端随时随地可用</title>
-    <link href="https://cloudroaminghub.com/20231220223402/"/>
-    <id>https://cloudroaminghub.com/20231220223402/</id>
-    <published>2023-12-20T14:34:02.000Z</published>
-    <updated>2023-12-20T17:05:38.403Z</updated>
+    <title>会议录音转录成Word文档</title>
+    <link href="https://cloudroaminghub.com/ea30e415.html"/>
+    <id>https://cloudroaminghub.com/ea30e415.html</id>
+    <published>2023-12-23T14:10:18.000Z</published>
+    <updated>2023-12-23T14:16:47.820Z</updated>
     
-    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></li><li>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/20231208223040/">https://cloudroaminghub.com/20231208223040/</a></li><li>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></li><li>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li>配置域名</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>安装<a href="https://www.capcut.cn/">剪映</a></p></li><li><p>安装<a href="https://github.com/cloudroaminghub/srt_to_word">srt to word</a></p></li></ul>]]></content>
+    
+    
+    <summary type="html">介绍将会议录音转录成Word文档的免费方案，替代讯飞听见</summary>
+    
+    
+    
+    <category term="免费资源" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="语音转文本" scheme="https://cloudroaminghub.com/tags/%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E6%9C%AC/"/>
+    
+    <category term="srt to word" scheme="https://cloudroaminghub.com/tags/srt-to-word/"/>
+    
+    <category term="文本格式化" scheme="https://cloudroaminghub.com/tags/%E6%96%87%E6%9C%AC%E6%A0%BC%E5%BC%8F%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GeminiProChat中国怎么用，免费apikey配合Web端随时随地可用</title>
+    <link href="https://cloudroaminghub.com/61ab1cd3.html"/>
+    <id>https://cloudroaminghub.com/61ab1cd3.html</id>
+    <published>2023-12-20T14:34:02.000Z</published>
+    <updated>2023-12-21T11:54:03.445Z</updated>
+    
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li><p>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></p></li><li><p>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></p></li><li><p>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a></p><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li><p>配置域名</p></li><li><p>体验地址: <a href="https://www.yunyou.cloudns.biz/(%E7%94%B1%E6%9C%AC%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA%E6%90%AD%E5%BB%BA)">https://www.yunyou.cloudns.biz/(由本视频演示搭建)</a>   密码: 123456</p></li></ul>]]></content>
     
     
       
@@ -44,10 +69,10 @@
   
   <entry>
     <title>博客防失联之自建免费邮件订阅服务</title>
-    <link href="https://cloudroaminghub.com/20231214133501/"/>
-    <id>https://cloudroaminghub.com/20231214133501/</id>
+    <link href="https://cloudroaminghub.com/741a947a.html"/>
+    <id>https://cloudroaminghub.com/741a947a.html</id>
     <published>2023-12-14T05:35:01.000Z</published>
-    <updated>2023-12-18T16:16:27.577Z</updated>
+    <updated>2023-12-21T11:54:03.499Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/8roE6UU7QDk?si=ef4ufizPB1WSvqPz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p><a href="https://github.com/knadh/listmonk">listmonk</a>是一款开源的邮件营销系统(EDM)，具备付费EDM的基本功能(邮件订阅，营销信息批量发送)，可以很方便的用在自己搭建的博客或网站系统上，建立起一种跟网友之间保持联系的机制</p><h3 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h3><ul><li><h4 id="搭建listmonk"><a href="#搭建listmonk" class="headerlink" title="搭建listmonk"></a>搭建listmonk</h4><ul><li><p>安装docker和docker-compose<br><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)<br><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a>(注意修改安装版本号，选择一个较新的版本安装)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable docker        #设置开机自动启动docker</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start docker         #启动docker</span><br></pre></td></tr></table></figure></li><li><p>下载配置文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir listmonk &amp;&amp; cd listmonk</span><br><span class="line">wget -O config.toml https://raw.githubusercontent.com/knadh/listmonk/master/config.toml.sample</span><br><span class="line">wget -O docker-compose.yml https://raw.githubusercontent.com/knadh/listmonk/master/docker-compose.yml</span><br></pre></td></tr></table></figure></li><li><p>修改配置文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">address = &quot;0.0.0.0:9000&quot;      #在config.toml中</span><br><span class="line">admin_password = &quot;listmonk&quot;   #在config.toml中，后台登录密码</span><br><span class="line">host = &quot;listmonk_db&quot;          #在config.toml中，localhost改成listmonk_db</span><br><span class="line">password = &quot;listmonk&quot;         #在config.toml中，数据库密码，与POSTGRES_PASSWORD要保持一致，</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">POSTGRES_PASSWORD=listmonk    #在docker-compose.yml中，要与上面password保持一致</span><br></pre></td></tr></table></figure></li><li><p>运行 Postgres 数据库 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up -d db</span><br></pre></td></tr></table></figure></li><li><p>设置数据库（或 –upgrade 升级现有数据库）。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose run --rm app ./listmonk --install</span><br></pre></td></tr></table></figure></li><li><p>运行app 并访问 <a href="http://localhost:9000/">http://localhost:9000</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up -d app</span><br></pre></td></tr></table></figure></li></ul></li><li><h4 id="设置SSL访问-适合当前服务器已安装nginx和证书，以下设定以搭建节点脚本安装的nginx和证书的环境为例"><a href="#设置SSL访问-适合当前服务器已安装nginx和证书，以下设定以搭建节点脚本安装的nginx和证书的环境为例" class="headerlink" title="设置SSL访问(适合当前服务器已安装nginx和证书，以下设定以搭建节点脚本安装的nginx和证书的环境为例)"></a>设置SSL访问(适合当前服务器已安装nginx和证书，以下设定以搭建节点脚本安装的nginx和证书的环境为例)</h4><ul><li>在&#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;新建listmonk.conf文件</li><li>在listmonk.conf中增加下面配置来用https反代http<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen       2087 ssl;     #外部访问的端口</span><br><span class="line">    server_name  example.com;  #外部访问的域名</span><br><span class="line"></span><br><span class="line">    ssl_certificate      /root/.acme.sh/example.com_ecc/fullchain.cer;   #证书路径，根据你自己的域名替换</span><br><span class="line">    ssl_certificate_key  /root/.acme.sh/example.com_ecc/1ave.eu.org.key; #密钥路径，根据你自己的域名替换</span><br><span class="line"></span><br><span class="line">    ssl_session_timeout  5m;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://localhost:9000;                  #listmonk本地访问的端口</span><br><span class="line">        proxy_set_header    Host                $http_host;</span><br><span class="line">        proxy_set_header    X-Real-IP           $remote_addr;</span><br><span class="line">        proxy_set_header    X-Forwarded-For     $proxy_add_x_forwarded_for;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart nginx.service      #重启nginx服务</span><br></pre></td></tr></table></figure></li></ul></li></ul><h3 id="自动回复临时方案"><a href="#自动回复临时方案" class="headerlink" title="自动回复临时方案"></a>自动回复临时方案</h3><p>但listmonk缺少一个针对新订阅用户的自动回复功能，借助ChatGPT写了一个简单方案，基本逻辑就是起一个定时任务，调用API检查订阅列表是否有新增用户，如有符合条件的新增用户，根据用户的状态(confirmed, unconfirmed)发送响应的邮件<br>可以达到如下目的：</p><ol><li>发送欢迎信</li><li>跟进用户订阅确认情况</li><li>给已确认用户发送活动信息</li></ol><h3 id="实际效果"><a href="#实际效果" class="headerlink" title="实际效果"></a>实际效果</h3><p>可以点击下方<a href="https://subscribe.cloudroaminghub.com/">订阅邮件</a>订阅查看具体效果，默认设置是10分钟检查一次，自动回复会有1-10分钟不等延迟</p><h3 id="使用流程如下"><a href="#使用流程如下" class="headerlink" title="使用流程如下:"></a>使用流程如下:</h3><ol><li>下载check_subscribers.sh<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O check_subscribers.sh https://raw.githubusercontent.com/cloudroaminghub/listmonk-autoreply-onsubscription/master/check_subscribers.sh</span><br></pre></td></tr></table></figure></li><li>配置认证信息和针对不同用户回复邮件模板</li><li>修改运行权限<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x check_subscribers.sh</span><br></pre></td></tr></table></figure></li><li>添加一个定时任务<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crontab -e   #运行后，添加下面这一行到文件末尾(默认10分钟，自行调整的话需要跟脚本中的设置一致)  </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*/10 * * * * /path/to/check_subscribers.sh &gt;&gt; /path/to/crontab_check_subs.log 2&gt;&amp;1</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
@@ -67,10 +92,10 @@
   
   <entry>
     <title>ChatGPT中国怎么用2，超火chatgpt Web免费容器部署</title>
-    <link href="https://cloudroaminghub.com/20231208223040/"/>
-    <id>https://cloudroaminghub.com/20231208223040/</id>
+    <link href="https://cloudroaminghub.com/1ef4bf23.html"/>
+    <id>https://cloudroaminghub.com/1ef4bf23.html</id>
     <published>2023-12-08T14:30:40.000Z</published>
-    <updated>2023-12-11T07:27:15.797Z</updated>
+    <updated>2023-12-21T11:54:03.426Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/un4dU_r6Lno?si=NIXpJ4T8uriTEFuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><ul><li><p>点击<a href="https://platform.openai.com/signup">注册OpenAI账号</a></p></li><li><p>点击<a href="https://platform.openai.com/api-keys">获取OpenAI API Key</a></p></li><li><p>点击<a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=/&source=header-home">注册GitHub账号</a></p></li><li><p>点击<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">forkChatGPT-Next-Web项目</a></p></li><li><p>点击<a href="https://vercel.com/signup">登录Vercel</a>，并开始部署</p><ul><li>需要配置的两个环境变量<br>OPENAI_API_KEY<br>CODE</li></ul></li><li><p>点击进入<a href="https://vercel.com/">Vercel</a>绑定域名</p></li><li><p>在电脑或手机端使用</p></li></ul><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li><a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT-Next-Web GitHub地址</a></li></ul>]]></content>
     
@@ -84,10 +109,10 @@
   
   <entry>
     <title>适合国人长期日常使用tiktok的方法</title>
-    <link href="https://cloudroaminghub.com/20231203131227/"/>
-    <id>https://cloudroaminghub.com/20231203131227/</id>
+    <link href="https://cloudroaminghub.com/eb3d3fd9.html"/>
+    <id>https://cloudroaminghub.com/eb3d3fd9.html</id>
     <published>2023-12-03T05:12:27.000Z</published>
-    <updated>2023-12-20T14:30:13.069Z</updated>
+    <updated>2023-12-21T11:54:03.585Z</updated>
     
     <content type="html"><![CDATA[<h3 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h3><p>科学上网</p><h3 id="三种方法"><a href="#三种方法" class="headerlink" title="三种方法"></a>三种方法</h3><ul><li>网页版  </li><li>拔卡 + 设置系统区域  </li><li>国外卡 + 先关闭国内卡，tiktok刷出来后再打开国内卡(首次或tiktok缓存被清空)<ul><li>分享一个iOS切换sim卡的<a href="https://www.icloud.com/shortcuts/c7b873e7e2334a04b44149b5d5a52610">快捷指令</a>，关闭主号(国内卡)，等待10秒后再打开主号(国内卡)，同时设置默认语音和数据为主号(国内卡)<br>可以设置成打开tiktok的时候运行此快捷指令，这样就可以无感刷tiktok了</li></ul></li></ul>]]></content>
     
@@ -107,10 +132,10 @@
   
   <entry>
     <title>谷歌浏览器扩展程序精选5款(2023)，有福利</title>
-    <link href="https://cloudroaminghub.com/20231201182406/"/>
-    <id>https://cloudroaminghub.com/20231201182406/</id>
+    <link href="https://cloudroaminghub.com/54695bb7.html"/>
+    <id>https://cloudroaminghub.com/54695bb7.html</id>
     <published>2023-12-01T10:24:06.000Z</published>
-    <updated>2023-12-08T13:54:55.629Z</updated>
+    <updated>2023-12-21T11:54:03.563Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/yLB_w9sdkMA?si=WyZfw72MZEP_2XCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><ul><li>油猴，chrome应用商店叫篡改猴 - Tampermonkey (搜索: Tempermonkey)  <ul><li><a href="https://sleazyfork.org/zh-CN/scripts?sort=total_installs">Sleazy Fork隐藏福利</a>  </li><li><a href="https://greasyfork.org/zh-CN/scripts?sort=total_installs">Greasy Fork用户脚本</a></li></ul></li><li>Youtube双语字幕 - YouTube™ dual subtitles (搜索: 字幕 或 dual subtitles)  </li><li>图片批量下载 - ImageAssistant Batch Image Downloader (搜索: 图片助手 或 ImageAssistant)  </li><li>浏览器历史 - Better History (搜索: Better History)  </li><li>去广告 - Adblock Plus (搜索: Adblock)</li></ul>]]></content>
     
@@ -136,10 +161,10 @@
   
   <entry>
     <title>ChatGPT中国怎么用，最佳chatgpt客户端</title>
-    <link href="https://cloudroaminghub.com/20231129162302/"/>
-    <id>https://cloudroaminghub.com/20231129162302/</id>
+    <link href="https://cloudroaminghub.com/75698620.html"/>
+    <id>https://cloudroaminghub.com/75698620.html</id>
     <published>2023-11-29T08:23:02.000Z</published>
-    <updated>2023-12-08T13:54:55.599Z</updated>
+    <updated>2023-12-23T14:16:03.650Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/K9ehlPo7me8?si=gq1EUbg0qgLEZyKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><p><a href="https://chatboxai.app/">Chatbox官网</a><br><a href="https://github.com/Bin-Huang/chatbox">Chatbox github</a></p>]]></content>
     
@@ -148,7 +173,7 @@
     
     
     
-    <category term="免费工具" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/"/>
+    <category term="免费资源" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
     
     
     <category term="ChatGPT" scheme="https://cloudroaminghub.com/tags/ChatGPT/"/>
@@ -163,10 +188,10 @@
   
   <entry>
     <title>gpt爬虫，人人都可以创建GPTs问答机器人</title>
-    <link href="https://cloudroaminghub.com/20231126101118/"/>
-    <id>https://cloudroaminghub.com/20231126101118/</id>
+    <link href="https://cloudroaminghub.com/1d9bf017.html"/>
+    <id>https://cloudroaminghub.com/1d9bf017.html</id>
     <published>2023-11-26T02:11:18.000Z</published>
-    <updated>2023-12-08T13:54:55.608Z</updated>
+    <updated>2023-12-21T11:54:03.473Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/uCynmiNX5Ww?si=KeAtOWHHsY4WNJ-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul><li><a href="https://git-scm.com/downloads">Git</a></li><li><a href="https://nodejs.org/en/">Node.js</a> &gt;&#x3D; 16</li></ul><h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul><li><p>下载脚本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/builderio/gpt-crawler</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd gpt-crawler</span><br></pre></td></tr></table></figure></li><li><p>安装依赖</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i</span><br></pre></td></tr></table></figure></li><li><p>调整配置</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> const defaultConfig: Config = &#123;</span><br><span class="line">  url: <span class="string">&quot;https://www.builder.io/c/docs/developers&quot;</span>,  <span class="comment"># URL to start the crawl</span></span><br><span class="line">  match: <span class="string">&quot;https://www.builder.io/c/docs/**&quot;</span>,        <span class="comment"># Pattern to match against for links on a page to subsequently crawl</span></span><br><span class="line">  selector: `.docs-builder-container`,              <span class="comment"># Selector to grab the inner text from</span></span><br><span class="line">  maxPagesToCrawl: 50,                              <span class="comment"># Don&#x27;t crawl more than this many pages</span></span><br><span class="line">  outputFileName: <span class="string">&quot;output.json&quot;</span>,                    <span class="comment"># File name for the finished data</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></li><li><p>执行任务</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure></li></ul><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li><a href="https://github.com/BuilderIO/gpt-crawler">gpt-crawler github地址</a></li></ul>]]></content>
     
@@ -190,10 +215,10 @@
   
   <entry>
     <title>搭建节点教程(2023)，操作最简单功能最全面</title>
-    <link href="https://cloudroaminghub.com/20231125211809/"/>
-    <id>https://cloudroaminghub.com/20231125211809/</id>
+    <link href="https://cloudroaminghub.com/2dc1165a.html"/>
+    <id>https://cloudroaminghub.com/2dc1165a.html</id>
     <published>2023-11-25T13:18:09.000Z</published>
-    <updated>2023-12-08T13:54:55.627Z</updated>
+    <updated>2023-12-21T11:54:03.528Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/flH-7tclKL0?si=mqPpn7QIxK8P5XjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ul><li>注册一台VPS云主机，推荐<a href="https://bandwagonhost.com/aff.php?aff=73432">搬瓦工</a>或者<a href="https://www.vultr.com/?ref=9405001">Vultr</a></li><li>注册一个域名，推荐永久免费域名<a href="https://nic.eu.org/">eu.org</a></li></ul><h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul><li><p>安装脚本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -P /root -N --no-check-certificate <span class="string">&quot;https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li><li><p>备用安装脚本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -P /root -N --no-check-certificate <span class="string">&quot;https://www.v2ray-agent.com/v2ray-agent/install.sh&quot;</span> &amp;&amp; <span class="built_in">chmod</span> 700 /root/install.sh &amp;&amp; /root/install.sh</span><br></pre></td></tr></table></figure></li></ul><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li>本地客户端<ul><li>Windows推荐<a href="https://github.com/2dust/v2rayN">v2rayN</a></li><li>iOS推荐小火箭<a href="https://apps.apple.com/ca/app/shadowrocket/id932747118">Shadowrocket</a></li><li>Android推荐<a href="https://github.com/2dust/v2rayNG">v2rayNG</a></li></ul></li><li><a href="https://github.com/mack-a/v2ray-agent">脚本github地址</a></li></ul>]]></content>
     
@@ -217,10 +242,10 @@
   
   <entry>
     <title>PDF-XChange Editor Plus 10.1.3.383官方便携版</title>
-    <link href="https://cloudroaminghub.com/20231123185141/"/>
-    <id>https://cloudroaminghub.com/20231123185141/</id>
+    <link href="https://cloudroaminghub.com/54e2ee11.html"/>
+    <id>https://cloudroaminghub.com/54e2ee11.html</id>
     <published>2023-11-23T10:51:41.000Z</published>
-    <updated>2023-12-08T13:54:55.608Z</updated>
+    <updated>2023-12-21T11:54:03.462Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>]]></content>
     
@@ -238,10 +263,10 @@
   
   <entry>
     <title>超全IPTV源</title>
-    <link href="https://cloudroaminghub.com/20231123184915/"/>
-    <id>https://cloudroaminghub.com/20231123184915/</id>
+    <link href="https://cloudroaminghub.com/5f88083f.html"/>
+    <id>https://cloudroaminghub.com/5f88083f.html</id>
     <published>2023-11-23T10:49:15.000Z</published>
-    <updated>2023-12-08T13:54:55.636Z</updated>
+    <updated>2023-12-21T11:54:03.574Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://github.com/iptv-org/iptv">超全IPTV源</a></p>]]></content>
     
@@ -261,10 +286,10 @@
   
   <entry>
     <title>将另一台手机的短信、微信消息、App通知转发给你的另一台手机</title>
-    <link href="https://cloudroaminghub.com/20231123184624/"/>
-    <id>https://cloudroaminghub.com/20231123184624/</id>
+    <link href="https://cloudroaminghub.com/fe8d886f.html"/>
+    <id>https://cloudroaminghub.com/fe8d886f.html</id>
     <published>2023-11-23T10:46:24.000Z</published>
-    <updated>2023-12-08T13:54:55.627Z</updated>
+    <updated>2023-12-21T11:54:03.521Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://github.com/pppscn/SmsForwarder">短信转发器SmsForwarder</a></p>]]></content>
     
@@ -286,10 +311,10 @@
   
   <entry>
     <title>中小学课本一键下载，免费PDF编辑工具</title>
-    <link href="https://cloudroaminghub.com/20231123184227/"/>
-    <id>https://cloudroaminghub.com/20231123184227/</id>
+    <link href="https://cloudroaminghub.com/cf135998.html"/>
+    <id>https://cloudroaminghub.com/cf135998.html</id>
     <published>2023-11-23T10:42:27.000Z</published>
-    <updated>2023-12-08T13:54:55.616Z</updated>
+    <updated>2023-12-21T11:54:03.480Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/0Zy8NZ56KJg?si=8qVynxw9mgxiopiG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><p><a href="https://xuanle.lanzoul.com/iLY1G17zsd1g">萱乐电子教科书下载1.3.7z</a><br><a href="https://xuanle.lanzoul.com/iCzeK17zsi1g">萱乐电子教科书下载1.3_源码.7z</a></p><p><a href="https://pan.lanzouj.com/iq2Wj1ezoupa">PDF-XChange Editor Plus 10.1.3.383官方便携版</a></p>]]></content>
     
@@ -301,18 +326,18 @@
     <category term="免费资源" scheme="https://cloudroaminghub.com/categories/%E5%85%8D%E8%B4%B9%E8%B5%84%E6%BA%90/"/>
     
     
-    <category term="教科书" scheme="https://cloudroaminghub.com/tags/%E6%95%99%E7%A7%91%E4%B9%A6/"/>
-    
     <category term="PDF编辑" scheme="https://cloudroaminghub.com/tags/PDF%E7%BC%96%E8%BE%91/"/>
+    
+    <category term="教科书" scheme="https://cloudroaminghub.com/tags/%E6%95%99%E7%A7%91%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>设备同步神器Syncthing，无服务器中转</title>
-    <link href="https://cloudroaminghub.com/20231122233859/"/>
-    <id>https://cloudroaminghub.com/20231122233859/</id>
+    <link href="https://cloudroaminghub.com/92126875.html"/>
+    <id>https://cloudroaminghub.com/92126875.html</id>
     <published>2023-11-22T15:38:59.000Z</published>
-    <updated>2023-12-08T13:54:55.628Z</updated>
+    <updated>2023-12-21T11:54:03.555Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bcJ-oaaUWzA?si=lBNFb0AohzDoRkG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><p><a href="https://syncthing.net/">同步神器Syncthing</a></p>]]></content>
     
@@ -334,10 +359,10 @@
   
   <entry>
     <title>互传照片文件，netflix会员合租，网页翻译，远程支持</title>
-    <link href="https://cloudroaminghub.com/20231121231527/"/>
-    <id>https://cloudroaminghub.com/20231121231527/</id>
+    <link href="https://cloudroaminghub.com/37755890.html"/>
+    <id>https://cloudroaminghub.com/37755890.html</id>
     <published>2023-11-21T15:15:27.000Z</published>
-    <updated>2023-12-08T13:54:55.621Z</updated>
+    <updated>2023-12-21T11:54:03.491Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WWDi-91U6tQ?si=M1oKLvJO_0rNgvuS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><p>1.手机与电脑间发送文本或文件 <a href="https://snapdrop.net/#">Snapdrop</a> (使用的时候最好关闭代理软件)</p><p>2.网页翻译，<a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具 (immersivetranslate.com)</a></p><p>3.远程桌面，<a href="https://sunlogin.oray.com/">向日葵远程控制软件_远程控制电脑手机_远程桌面连接_远程办公|游戏|运维-贝锐向日葵官网 (oray.com)</a></p><p>4.会员合租，电报群合租 <a href="https://t.me/hezu1">Telegram: Contact @hezu1</a></p>]]></content>
     
@@ -361,10 +386,10 @@
   
   <entry>
     <title>网页变化如何监控2，支持局部监控</title>
-    <link href="https://cloudroaminghub.com/20231117161222/"/>
-    <id>https://cloudroaminghub.com/20231117161222/</id>
+    <link href="https://cloudroaminghub.com/791fae3d.html"/>
+    <id>https://cloudroaminghub.com/791fae3d.html</id>
     <published>2023-11-17T08:12:22.000Z</published>
-    <updated>2023-12-08T13:54:55.628Z</updated>
+    <updated>2023-12-21T11:54:03.545Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/efyK_GyiAxc?si=hhzjuexxqIQDP7mq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol><li><a href="https://www.runoob.com/docker/centos-docker-install.html">docker</a>(根据自己的os安装)</li><li><a href="https://www.runoob.com/docker/docker-compose.html">docker-compose</a></li></ol><h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul><li><h4 id="设置docker开机启动"><a href="#设置docker开机启动" class="headerlink" title="设置docker开机启动"></a>设置docker开机启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></table></figure></li><li><h4 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o docker-compose.yml https://raw.githubusercontent.com/cloudroaminghub/changedetection_config/main/docker-compose.yml &amp;&amp; docker-compose up -d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
@@ -398,10 +423,10 @@
   
   <entry>
     <title>如何建立自己的轻量稳定博客-hexo github pages搭建</title>
-    <link href="https://cloudroaminghub.com/20231116152410/"/>
-    <id>https://cloudroaminghub.com/20231116152410/</id>
+    <link href="https://cloudroaminghub.com/71fac40b.html"/>
+    <id>https://cloudroaminghub.com/71fac40b.html</id>
     <published>2023-11-16T07:24:10.000Z</published>
-    <updated>2023-12-08T13:54:55.621Z</updated>
+    <updated>2023-12-21T11:54:03.510Z</updated>
     
     <content type="html"><![CDATA[<h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol><li><a href="https://nodejs.org/en">Node.js</a></li><li><a href="https://git-scm.com/download/win">Git</a></li></ol><h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul><li><h4 id="确认Node-js是否安装成功"><a href="#确认Node-js是否安装成功" class="headerlink" title="确认Node.js是否安装成功"></a>确认Node.js是否安装成功</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v 或 npm -v     <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li></ul><span id="more"></span><ul><li><h4 id="npm添加国内镜像源"><a href="#npm添加国内镜像源" class="headerlink" title="npm添加国内镜像源"></a>npm添加国内镜像源</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li><li><h4 id="验证git是否安装成功"><a href="#验证git是否安装成功" class="headerlink" title="验证git是否安装成功"></a>验证git是否安装成功</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version         <span class="comment">##如果出现版本号，那么就安装成功了</span></span><br></pre></td></tr></table></figure></li><li><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v                ##验证是否安装成功</span><br></pre></td></tr></table></figure></li><li><h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init             <span class="comment">##初始化文件夹</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install           ##安装必备的组件</span><br></pre></td></tr></table></figure></li><li><h4 id="本地测试博客"><a href="#本地测试博客" class="headerlink" title="本地测试博客"></a>本地测试博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g                <span class="comment">##生成静态网页</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s                ##打开本地服务器</span><br></pre></td></tr></table></figure></li><li><h4 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的名字&quot;</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure></li><li><h4 id="生成密钥SSH-key"><a href="#生成密钥SSH-key" class="headerlink" title="生成密钥SSH key"></a>生成密钥SSH key</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span>   <span class="comment">##生成密钥SSH key</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub             ##获取SSH key填入github</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com             ##测试github连接</span><br></pre></td></tr></table></figure></li><li><h4 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-deployer-git           <span class="comment">##首次需要安装一个扩展</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;文章标题&quot;          </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g                            ##生成静态网页</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s                            ##本地预览效果</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d                            ##上传到github上</span><br></pre></td></tr></table></figure></li></ul>]]></content>
     
@@ -431,10 +456,10 @@
   
   <entry>
     <title>网页变化如何监控1，开源ChangeDetection搭建</title>
-    <link href="https://cloudroaminghub.com/20231116144016/"/>
-    <id>https://cloudroaminghub.com/20231116144016/</id>
+    <link href="https://cloudroaminghub.com/78ffca65.html"/>
+    <id>https://cloudroaminghub.com/78ffca65.html</id>
     <published>2023-11-16T06:40:16.000Z</published>
-    <updated>2023-12-08T13:54:55.628Z</updated>
+    <updated>2023-12-21T11:54:03.540Z</updated>
     
     <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/bq9yPyfgaPo?si=c3s6S1CBoXSV-Xrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><span id="more"></span><h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><ol><li>VPS</li><li><a href="https://www.bt.cn/new/index.html">宝塔面板</a></li><li>Python(Changedetection需要python3.7以上版本)</li></ol><h3 id="安装过程用到的指令"><a href="#安装过程用到的指令" class="headerlink" title="安装过程用到的指令"></a>安装过程用到的指令</h3><ul><li><h4 id="卸载旧版python3-x"><a href="#卸载旧版python3-x" class="headerlink" title="卸载旧版python3.x"></a>卸载旧版python3.x</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa|grep python3|xargs rpm -ev --allmatches --nodeps     <span class="comment">##卸载pyhton3</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">whereis python3 |xargs rm -frv          ##删除所有残余文件</span><br></pre></td></tr></table></figure></li><li><h4 id="检查系统中现存的python版本"><a href="#检查系统中现存的python版本" class="headerlink" title="检查系统中现存的python版本"></a>检查系统中现存的python版本</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">whereis python     <span class="comment">##通过此命令查看现有python的位置</span></span><br></pre></td></tr></table></figure></li><li><h4 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz  <span class="comment">##下载安装包</span></span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf Python-3.7.5.tgz   ##解压</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd Python-3.7.5   ##进入文件夹</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure -prefix=/usr/local/python3.7.5 ##注意：prefix参数用于指定将Python安装在新目录，防止覆盖宝塔系统默认安装的python2.x</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make &amp;&amp; make install ##编译</span><br></pre></td></tr></table></figure></li><li><h4 id="建立软链接"><a href="#建立软链接" class="headerlink" title="建立软链接"></a>建立软链接</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf /usr/bin/python3                                       <span class="comment">##删除原有链接</span></span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/local/python3.7.5/bin/python3.7 /usr/bin/python3   ##建立python3新的软连接</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /usr/bin/pip                                 ##删除原有链接</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s /usr/local/python3.7.5/bin/pip3 /usr/bin/pip  ##建立pip3新的软连接</span><br></pre></td></tr></table></figure></li><li><h4 id="检查pip版本"><a href="#检查pip版本" class="headerlink" title="检查pip版本"></a>检查pip版本</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip -V       <span class="comment">##大写V</span></span><br></pre></td></tr></table></figure></li><li><h4 id="重装pip-如果有报错才需要"><a href="#重装pip-如果有报错才需要" class="headerlink" title="重装pip(如果有报错才需要)"></a>重装pip(如果有报错才需要)</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf /usr/bin/pip  <span class="comment">##删除原有链接</span></span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 get-pip.py --force-reinstall ##强制重装pip</span><br></pre></td></tr></table></figure></li><li><h4 id="安装ChangeDetection"><a href="#安装ChangeDetection" class="headerlink" title="安装ChangeDetection"></a>安装ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install changedetection.io</span><br></pre></td></tr></table></figure></li><li><h4 id="安装特定版本命令-如有需要"><a href="#安装特定版本命令-如有需要" class="headerlink" title="安装特定版本命令(如有需要)"></a>安装特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install changedetection.io==0.45.5  <span class="comment">##安装0.45.5版本</span></span><br></pre></td></tr></table></figure></li><li><h4 id="卸载特定版本命令-如有需要"><a href="#卸载特定版本命令-如有需要" class="headerlink" title="卸载特定版本命令(如有需要)"></a>卸载特定版本命令(如有需要)</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip uninstall changedetection.io==0.45.5  <span class="comment">##卸载0.45.5版本</span></span><br></pre></td></tr></table></figure></li><li><h4 id="运行ChangeDetection"><a href="#运行ChangeDetection" class="headerlink" title="运行ChangeDetection"></a>运行ChangeDetection</h4>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ln</span> -s /usr/local/python3.7.5/bin/changedetection.io /usr/bin/changedetection.io    <span class="comment">##建立changedetection.io软连接</span></span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /www/wwwroot/ChangeDetection     ##建立changedetection工作文件夹</span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">changedetection.io -d /www/wwwroot/ChangeDetection -p 5000            ##在宝塔面板开放5000端口就可以访问了</span><br></pre></td></tr></table></figure></li></ul><h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><ol><li><a href="https://changedetection.io/">Changedetection官网</a></li><li><a href="https://github.com/dgtlmoon/changedetection.io">Changedetection Github</a></li></ol>]]></content>
     
@@ -466,10 +491,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://cloudroaminghub.com/20231116141339/"/>
-    <id>https://cloudroaminghub.com/20231116141339/</id>
+    <link href="https://cloudroaminghub.com/4a17b156.html"/>
+    <id>https://cloudroaminghub.com/4a17b156.html</id>
     <published>2023-11-16T06:13:39.000Z</published>
-    <updated>2023-12-08T13:54:55.603Z</updated>
+    <updated>2023-12-21T11:54:03.455Z</updated>
     
     <content type="html"><![CDATA[<p>Hello World!</p>]]></content>
     
