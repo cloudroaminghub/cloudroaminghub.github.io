@@ -42,19 +42,16 @@
   </entry>
   
   <entry>
-    <title>GeminiProChat中国怎么用，免费apikey配合Web端随时随地可用</title>
+    <title>Gemini Pro Chat中国怎么用，免费apikey配合Web端随时随地可用</title>
     <link href="https://cloudroaminghub.com/61ab1cd3.html"/>
     <id>https://cloudroaminghub.com/61ab1cd3.html</id>
     <published>2023-12-20T14:34:02.000Z</published>
-    <updated>2023-12-21T11:54:03.445Z</updated>
+    <updated>2023-12-23T14:43:26.934Z</updated>
     
-    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li><p>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></p></li><li><p>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></p></li><li><p>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a></p><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li><p>配置域名</p></li><li><p>体验地址: <a href="https://www.yunyou.cloudns.biz/(%E7%94%B1%E6%9C%AC%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA%E6%90%AD%E5%BB%BA)">https://www.yunyou.cloudns.biz/(由本视频演示搭建)</a>   密码: 123456</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li><p>获取<a href="https://makersuite.google.com/app/apikey">API Key</a></p></li><li><p>注册<a href="https://github.com/">GitHub账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>注册<a href="https://vercel.com/">Vercel账号</a> 参考<a href="https://cloudroaminghub.com/1ef4bf23.html">https://cloudroaminghub.com/1ef4bf23.html</a></p></li><li><p>部署<a href="https://github.com/antergone/palm-proxy">palm-proxy</a></p></li><li><p>部署<a href="https://github.com/babaohuang/GeminiProChat">GeminiProChat</a></p><ul><li>设置变量 GEMINI_API_KEY&#x3D;第1步获取的apikey</li><li>设置变量 API_BASE_URL&#x3D;第4步获取的域名</li><li>设置变量 SITE_PASSWORD&#x3D;部署好访问web端的密码</li></ul></li><li><p>配置域名</p></li><li><p><a href="https://www.yunyou.cloudns.biz/">体验地址</a>(由本视频演示搭建)   密码: 123456</p></li></ul>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDYKRlkY6wI?si=U4e4l2BrJLU1WyEE&quot; title=&quot;YouTube video player&quot; frameborde</summary>
-      
+    <summary type="html">介绍Gemini Pro Chat中国怎么用，免费apikey配合Web端随时随地可用</summary>
     
     
     
